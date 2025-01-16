@@ -136,3 +136,4 @@ dist
 .todo
 out-types/
 packages/api/src/routers
+.DS_Store
