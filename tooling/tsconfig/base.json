@@ -40,7 +40,7 @@
     "pretty": true,
     "preserveWatchOutput": true,
     "emitDeclarationOnly": true,
-    "tsBuildInfoFile": "${true}/tsconfig.tsbuildinfo",
+    "tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo",
     "baseUrl": "${configDir}",
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}",

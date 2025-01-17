@@ -115,7 +115,7 @@ const rootTsConfig = JSON.parse(fs.readFileSync(rootTsConfigPath, 'utf-8'))
 
 // Remove any existing router references
 rootTsConfig.references = rootTsConfig.references.filter(
-  (ref: { path: string }) => !ref.path.startsWith('generated-routers/'),
+  (ref: { path: string }) => !ref.path.includes('generated-routers/'),
 )
 
 // Add references for each generated router
