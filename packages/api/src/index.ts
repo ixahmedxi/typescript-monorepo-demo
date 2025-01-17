@@ -50,56 +50,6 @@ import { router46 } from '@org/router46';
 import { router47 } from '@org/router47';
 import { router48 } from '@org/router48';
 import { router49 } from '@org/router49';
-import { router50 } from '@org/router50';
-import { router51 } from '@org/router51';
-import { router52 } from '@org/router52';
-import { router53 } from '@org/router53';
-import { router54 } from '@org/router54';
-import { router55 } from '@org/router55';
-import { router56 } from '@org/router56';
-import { router57 } from '@org/router57';
-import { router58 } from '@org/router58';
-import { router59 } from '@org/router59';
-import { router60 } from '@org/router60';
-import { router61 } from '@org/router61';
-import { router62 } from '@org/router62';
-import { router63 } from '@org/router63';
-import { router64 } from '@org/router64';
-import { router65 } from '@org/router65';
-import { router66 } from '@org/router66';
-import { router67 } from '@org/router67';
-import { router68 } from '@org/router68';
-import { router69 } from '@org/router69';
-import { router70 } from '@org/router70';
-import { router71 } from '@org/router71';
-import { router72 } from '@org/router72';
-import { router73 } from '@org/router73';
-import { router74 } from '@org/router74';
-import { router75 } from '@org/router75';
-import { router76 } from '@org/router76';
-import { router77 } from '@org/router77';
-import { router78 } from '@org/router78';
-import { router79 } from '@org/router79';
-import { router80 } from '@org/router80';
-import { router81 } from '@org/router81';
-import { router82 } from '@org/router82';
-import { router83 } from '@org/router83';
-import { router84 } from '@org/router84';
-import { router85 } from '@org/router85';
-import { router86 } from '@org/router86';
-import { router87 } from '@org/router87';
-import { router88 } from '@org/router88';
-import { router89 } from '@org/router89';
-import { router90 } from '@org/router90';
-import { router91 } from '@org/router91';
-import { router92 } from '@org/router92';
-import { router93 } from '@org/router93';
-import { router94 } from '@org/router94';
-import { router95 } from '@org/router95';
-import { router96 } from '@org/router96';
-import { router97 } from '@org/router97';
-import { router98 } from '@org/router98';
-import { router99 } from '@org/router99';
 
 export const appRouter = router({
   router0,
@@ -151,57 +101,7 @@ export const appRouter = router({
   router46,
   router47,
   router48,
-  router49,
-  router50,
-  router51,
-  router52,
-  router53,
-  router54,
-  router55,
-  router56,
-  router57,
-  router58,
-  router59,
-  router60,
-  router61,
-  router62,
-  router63,
-  router64,
-  router65,
-  router66,
-  router67,
-  router68,
-  router69,
-  router70,
-  router71,
-  router72,
-  router73,
-  router74,
-  router75,
-  router76,
-  router77,
-  router78,
-  router79,
-  router80,
-  router81,
-  router82,
-  router83,
-  router84,
-  router85,
-  router86,
-  router87,
-  router88,
-  router89,
-  router90,
-  router91,
-  router92,
-  router93,
-  router94,
-  router95,
-  router96,
-  router97,
-  router98,
-  router99
+  router49
 });
 
 export type AppRouter = typeof appRouter;

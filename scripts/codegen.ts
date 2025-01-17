@@ -9,7 +9,7 @@ const apiPkgDir = path.join(__dirname, '../packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
-const NUM_ROUTERS = 100
+const NUM_ROUTERS = 50
 
 const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
@@ -73,7 +73,7 @@ export const appRouter = router({
 export type AppRouter = typeof appRouter;
 `.trim()
 
-const apiSrcDir = path.join(__dirname, 'packages/api/src')
+const apiSrcDir = path.join(apiPkgDir, 'src')
 if (!fs.existsSync(apiSrcDir)) {
   fs.mkdirSync(apiSrcDir, { recursive: true })
 }

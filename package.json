@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "build": "turbo build",
-    "dev": "bunx chokidar-cli \"generated-routers/**/src/**/*.ts\" -c \"bun run build\"",
+    "watch": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
