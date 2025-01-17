@@ -16,11 +16,11 @@
     "routers/*"
   ],
   "scripts": {
-    "build": "bun run build:1-utils && bun run build:2-api && bun run build:3-apps",
+    "build": "run-s build:* --print-label",
     "build:1-utils": "bun --filter './packages/utils' build",
     "build:2-api": "bun --filter './packages/api' build",
     "build:3-apps": "bun --filter './apps/*' build",
-    "dev": "bun --cwd packages/api dev",
+    "dev": "bun --elide-lines 0 --filter '*'  dev",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
@@ -33,9 +33,9 @@
     "cspell": "^8.15.1",
     "markdownlint": "^0.35.0",
     "markdownlint-cli": "^0.42.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "prettier-plugin-packagejson": "^2.5.3",
     "typescript": "^5.6.3"
-  },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+  }
 }
