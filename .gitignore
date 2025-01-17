@@ -138,5 +138,6 @@ out-types/
 packages/api/src/routers
 .DS_Store
 
-generated-routers/
+
+# generated-routers/ # <--- ignoring this breaks `turbo watch`
 .turbo/

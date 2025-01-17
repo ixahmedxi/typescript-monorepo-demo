@@ -1,0 +1,26 @@
+{
+  "name": "@org/router6",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "bun scripts/codegen.ts"
+  },
+  "dependencies": {
+    "@org/trpc": "workspace:*",
+    "@trpc/server": "^11.0.0-rc.571",
+    "superjson": "^2.2.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@org/tsconfig": "workspace:*"
+  }
+}

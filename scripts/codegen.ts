@@ -15,7 +15,7 @@ const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
 } else {
-  // fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
+  fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
 }
 
 // read template files
@@ -27,11 +27,6 @@ const packageJson = fs.readFileSync(
 
 function createRouterPackage(routerName: string) {
   const packageDir = path.join(PACKAGES_DIR, routerName)
-
-  // Delete existing package directory if it exists
-  if (fs.existsSync(packageDir)) {
-    // fs.rmSync(packageDir, { recursive: true, force: true })
-  }
 
   const srcDir = path.join(packageDir, 'src')
 
