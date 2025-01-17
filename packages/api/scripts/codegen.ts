@@ -5,7 +5,6 @@ import { fileURLToPath } from 'url'
 // Get the equivalent of __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const __apiDir = path.join(__dirname, '../')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
@@ -15,7 +14,7 @@ const PACKAGES_DIR = path.join(__dirname, '../../../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
 } else {
-  fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
+  // fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
 }
 
 // read template files
@@ -30,7 +29,7 @@ function createRouterPackage(routerName: string) {
 
   // Delete existing package directory if it exists
   if (fs.existsSync(packageDir)) {
-    fs.rmSync(packageDir, { recursive: true, force: true })
+    // fs.rmSync(packageDir, { recursive: true, force: true })
   }
 
   const srcDir = path.join(packageDir, 'src')
@@ -78,3 +77,18 @@ if (!fs.existsSync(apiSrcDir)) {
   fs.mkdirSync(apiSrcDir, { recursive: true })
 }
 fs.writeFileSync(path.join(apiSrcDir, 'index.ts'), rootIndexFile)
+
+// Add generated router packages as dependencies to api package.json
+const apiPackageJsonPath = path.join(__dirname, '../package.json')
+const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
+
+// Add each router package as a dependency
+for (const routerName of routerPackages) {
+  apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
+}
+
+// Write updated package.json
+fs.writeFileSync(
+  apiPackageJsonPath,
+  JSON.stringify(apiPackageJson, null, 2) + '\n',
+)

@@ -6,8 +6,8 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "types": "./src/dist/index.d.ts",
-      "default": "./src/dist/index.js"
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
     }
   },
   "scripts": {
