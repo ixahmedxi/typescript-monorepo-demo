@@ -28,7 +28,6 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@org/tsconfig": "workspace:*",
-    "tsx": "^4.19.1"
+    "@org/tsconfig": "workspace:*"
   }
 }

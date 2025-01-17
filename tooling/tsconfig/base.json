@@ -39,12 +39,12 @@
     "sourceMap": true,
     "pretty": true,
     "preserveWatchOutput": true,
-    "emitDeclarationOnly": true,
+    "emitDeclarationOnly": false,
     "tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo",
     "baseUrl": "${configDir}",
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}/src",
-    "composite": true,
+    "composite": false,
     "noEmitOnError": true
   },
   "include": ["${configDir}/src/**/*"]
