@@ -49,7 +49,7 @@ const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
 }
 
 export const router0 = {
-  foo: publicProcedure.query(() => 'baz' as const),
+  foo: publicProcedure.query(() => 'bar' as const),
   quantum: {
     superposition: {
       entangle: publicProcedure
