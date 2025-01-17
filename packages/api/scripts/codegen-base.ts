@@ -1,3 +1,4 @@
+import { TRPCRouterRecord } from '@trpc/server'
 import { z } from 'zod'
 
 // @ts-ignore - it's a template
@@ -48,9 +49,9 @@ const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
   ])
 }
 
-export const __ROUTER__NAME__ = router({
-  quantum: router({
-    superposition: router({
+export const __ROUTER__NAME__ = {
+  quantum: {
+    superposition: {
       entangle: publicProcedure
         .input(
           z.intersection(
@@ -71,10 +72,10 @@ export const __ROUTER__NAME__ = router({
       schrodingerQuery: publicProcedure
         .input(createNestedDiscriminatedUnion(10))
         .query(() => `Cat's state observed`),
-    }),
+    },
 
-    multiverse: router({
-      timelineParadox: router({
+    multiverse: {
+      timelineParadox: {
         resolveParadox: publicProcedure
           .input(
             z.object({
@@ -130,9 +131,9 @@ export const __ROUTER__NAME__ = router({
             }),
           )
           .mutation(() => `Timeline paradox contained`),
-      }),
+      },
 
-      infiniteRecursion: router({
+      infiniteRecursion: {
         recurse: publicProcedure
           .input(
             z.lazy(() =>
@@ -169,12 +170,12 @@ export const __ROUTER__NAME__ = router({
             ),
           )
           .query(({ input }) => `Recursion depth: ${input.depth}`),
-      }),
-    }),
-  }),
+      },
+    },
+  },
 
-  hyperComplex: router({
-    fractalDimension: router({
+  hyperComplex: {
+    fractalDimension: {
       computeMandelbrot: publicProcedure
         .input(
           z.object({
@@ -220,6 +221,6 @@ export const __ROUTER__NAME__ = router({
         .query(
           ({ input }) => `Fractal computed at ${input.iterations} iterations`,
         ),
-    }),
-  }),
-})
+    },
+  },
+} satisfies TRPCRouterRecord

@@ -19,7 +19,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "postinstall": "tsx scripts/codegen"
+    "postinstall": "bun scripts/codegen.ts"
   },
   "dependencies": {
     "@org/utils": "workspace:*",
