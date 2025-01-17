@@ -23,7 +23,7 @@
     "build:3-api": "bun --filter './packages/api' build",
     "build:4-apps": "bun --filter './apps/*' build",
     "postinstall": "bun run build",
-    "dev": "bun --elide-lines 0 --filter '*'  dev",
+    "dev": "bun --filter '@org/*' --watch build",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
