@@ -17,8 +17,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
-    "postinstall": "bun scripts/codegen.ts"
+    "build": "tsc"
   },
   "dependencies": {
     "@org/utils": "workspace:*",
