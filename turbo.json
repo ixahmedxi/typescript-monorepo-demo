@@ -16,7 +16,8 @@
         "dist/**",
         "tsconfig.tsbuildinfo"
       ],
-      "persistent": false
+      "persistent": false,
+      "cache": true
     }
   }
 }
