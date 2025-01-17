@@ -4,7 +4,6 @@ export function App() {
   const { data } = trpcReact.router0.foo.useQuery()
 
   if (data === 'bar') {
-    return 'bar'
   }
 
   // 1. run `bun dev`
