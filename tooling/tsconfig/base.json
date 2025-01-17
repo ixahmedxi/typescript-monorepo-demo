@@ -31,7 +31,7 @@
     "moduleResolution": "bundler",
     "moduleDetection": "force",
     "resolveJsonModule": true,
-    "noEmit": true,
+    "noEmit": false,
     "incremental": true,
 
     "declaration": true,
@@ -39,13 +39,13 @@
     "sourceMap": true,
     "pretty": true,
     "preserveWatchOutput": true,
-
+    "emitDeclarationOnly": true,
     "tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo",
     "baseUrl": "${configDir}",
-    "paths": {
-      "@/*": ["${configDir}/src/*"]
-    },
+    "outDir": "${configDir}/dist",
+    "rootDir": "${configDir}/src",
     "composite": true,
     "noEmitOnError": true
-  }
+  },
+  "include": ["${configDir}/src/**/*"]
 }

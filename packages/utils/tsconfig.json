@@ -1,16 +1,7 @@
 {
   "extends": ["@org/tsconfig/base.json"],
   "compilerOptions": {
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "outDir": "./dist",
-    "noEmit": false,
-    "emitDeclarationOnly": true,
-    "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo"
+    "outDir": "./dist"
   },
-  "references": [
-    {
-      "path": "./tsconfig.build.json"
-    }
-  ],
   "include": ["src/**/*"]
 }
