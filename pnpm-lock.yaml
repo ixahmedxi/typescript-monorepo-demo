@@ -36,8 +36,8 @@ importers:
         specifier: ^2.5.3
         version: 2.5.8(prettier@3.4.2)
       typescript:
-        specifier: ^5.6.3
-        version: 5.7.3
+        specifier: npm:@kitchensink/typescript-pr60005@latest
+        version: '@kitchensink/typescript-pr60005@5.8.0'
 
   apps/web:
     dependencies:
@@ -1656,6 +1656,11 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@kitchensink/typescript-pr60005@5.8.0':
+    resolution: {integrity: sha512-DRtc5P9qrqIMM9y10jBQ0UVULL7b0iC5B8zCJQOWiiLPpP0uLST5XPHt4uVZqEDhbbompsmvt0j7VBKl2omAnQ==}
+    engines: {node: '>=14.17'}
+    hasBin: true
 
   '@pkgr/core@0.1.1':
     resolution: {integrity: sha512-cq8o4cWH0ibXh9VGi5P20Tu9XF/0fFXl9EUinr9QfTM7a7p0oTA4iJRCQWppXR1Pg8dSM0UCItCkPwsk9qWWYA==}
@@ -3334,6 +3339,8 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@kitchensink/typescript-pr60005@5.8.0': {}
 
   '@pkgr/core@0.1.1': {}
 
