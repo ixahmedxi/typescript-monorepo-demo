@@ -12,9 +12,11 @@
   "workspaces": [
     "apps/*",
     "packages/*",
-    "tooling/*"
+    "tooling/*",
+    "routers/*"
   ],
   "scripts": {
+    "build-api": "bun --filter './packages/api' build",
     "dev": "bun --cwd packages/api dev",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",

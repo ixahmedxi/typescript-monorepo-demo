@@ -43,7 +43,7 @@
     "tsBuildInfoFile": "${configDir}/tsconfig.tsbuildinfo",
     "baseUrl": "${configDir}",
     "outDir": "${configDir}/dist",
-    "rootDir": "${configDir}/src",
+    "rootDir": "${configDir}",
     "composite": false,
     "noEmitOnError": true
   },
