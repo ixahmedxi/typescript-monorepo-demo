@@ -17,7 +17,6 @@
     "postinstall": "bun scripts/codegen.ts"
   },
   "dependencies": {
-    "@org/utils": "workspace:*",
     "@trpc/server": "next",
     "superjson": "^2.2.1",
     "zod": "^3.23.8"

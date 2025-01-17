@@ -45,7 +45,8 @@
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}",
     "composite": true,
-    "noEmitOnError": true
+    "noEmitOnError": true,
+    "assumeChangesOnlyAffectDirectDependencies": true
   },
   "include": ["${configDir}/src/**/*"]
 }
