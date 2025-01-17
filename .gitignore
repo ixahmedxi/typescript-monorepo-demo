@@ -137,3 +137,5 @@ dist
 out-types/
 packages/api/src/routers
 .DS_Store
+
+generated-routers/

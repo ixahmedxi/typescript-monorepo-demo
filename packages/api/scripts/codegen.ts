@@ -5,44 +5,76 @@ import { fileURLToPath } from 'url'
 // Get the equivalent of __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const __apiDir = path.join(__dirname, '../')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
 const NUM_ROUTERS = 100
 
-const ROUTERS_DIR = path.join(__dirname, '../src/routers')
-if (fs.existsSync(ROUTERS_DIR)) {
-  fs.rmSync(ROUTERS_DIR, { recursive: true })
+const PACKAGES_DIR = path.join(__dirname, '../../../generated-routers')
+if (!fs.existsSync(PACKAGES_DIR)) {
+  fs.mkdirSync(PACKAGES_DIR, { recursive: true })
+} else {
+  fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
 }
 
-fs.mkdirSync(ROUTERS_DIR, { recursive: true })
-
-// read file codegen-base.ts in the same dir as this script
+// read template files
 const codegenBase = fs.readFileSync(__dirname + '/codegen-base.ts', 'utf-8')
+const packageJson = fs.readFileSync(
+  __dirname + '/codegen-package.json',
+  'utf-8',
+)
 
-function createRouter(routerName: string) {
-  return codegenBase.replace('__ROUTER__NAME__', routerName)
+function createRouterPackage(routerName: string) {
+  const packageDir = path.join(PACKAGES_DIR, routerName)
+
+  // Delete existing package directory if it exists
+  if (fs.existsSync(packageDir)) {
+    fs.rmSync(packageDir, { recursive: true, force: true })
+  }
+
+  const srcDir = path.join(packageDir, 'src')
+
+  // Create package directory structure
+  fs.mkdirSync(packageDir, { recursive: true })
+  fs.mkdirSync(srcDir, { recursive: true })
+
+  // Create package.json
+  const routerPackageJson = packageJson.replace(/__ROUTER__NAME__/g, routerName)
+  fs.writeFileSync(path.join(packageDir, 'package.json'), routerPackageJson)
+
+  // Create index.ts with router implementation
+  const routerCode = codegenBase.replace('__ROUTER__NAME__', routerName)
+  fs.writeFileSync(path.join(srcDir, 'index.ts'), routerCode)
+
+  fs.writeFileSync(
+    path.join(packageDir, 'tsconfig.json'),
+    fs.readFileSync(path.join(__dirname, '../tsconfig.json'), 'utf-8'),
+  )
 }
 
-const indexBuf: string[] = []
+const routerPackages: string[] = []
 for (let i = 0; i < NUM_ROUTERS; i++) {
   const routerName = `router${i}`
-  indexBuf.push(routerName)
-  fs.writeFileSync(`${ROUTERS_DIR}/${routerName}.ts`, createRouter(routerName))
+  routerPackages.push(routerName)
+  createRouterPackage(routerName)
 }
 
-const indexFile = `
-import { router } from '../trpc';
+// Create root package that exports all routers
+const rootIndexFile = `
+import { router } from '@org/trpc';
 
-${indexBuf.map((name) => `import { ${name} } from './${name}';`).join('\n')}
+${routerPackages.map((name) => `import { ${name} } from '@org/${name}';`).join('\n')}
 
 export const appRouter = router({
-  ${indexBuf.join(',\n    ')}
-})
+  ${routerPackages.join(',\n  ')}
+});
 
-// export only the type definition of the API
-// None of the actual implementation is exposed to the client
 export type AppRouter = typeof appRouter;
 `.trim()
 
-fs.writeFileSync(`${ROUTERS_DIR}/_app.ts`, indexFile)
+const apiSrcDir = path.join(__dirname, '../src')
+if (!fs.existsSync(apiSrcDir)) {
+  fs.mkdirSync(apiSrcDir, { recursive: true })
+}
+fs.writeFileSync(path.join(apiSrcDir, 'index.ts'), rootIndexFile)

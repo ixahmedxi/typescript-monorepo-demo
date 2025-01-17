@@ -1,7 +1,8 @@
 import { TRPCRouterRecord } from '@trpc/server'
 import { z } from 'zod'
 
-import { publicProcedure } from '@org/trpc'
+// @ts-ignore - it's a template
+import { publicProcedure, router } from '../trpc'
 
 // Recursive nightmare types
 type DeepNestedType = { [K: string]: DeepNestedType | unknown }

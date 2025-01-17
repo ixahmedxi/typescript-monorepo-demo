@@ -13,13 +13,14 @@
     "apps/*",
     "packages/*",
     "tooling/*",
-    "routers/*"
+    "generated-routers/*"
   ],
   "scripts": {
     "build": "run-s build:* --print-label",
     "build:1-utils": "bun --filter './packages/utils' build",
-    "build:2-api": "bun --filter './packages/api' build",
-    "build:3-apps": "bun --filter './apps/*' build",
+    "build:2-routers": "bun --filter './generated-routers/**' build",
+    "build:3-api": "bun --filter './packages/api' build",
+    "build:4-apps": "bun --filter './apps/*' build",
     "dev": "bun --elide-lines 0 --filter '*'  dev",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",

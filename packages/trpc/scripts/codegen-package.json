@@ -1,13 +1,7 @@
 {
-  "name": "@org/api",
+  "name": "@org/__ROUTER__NAME__",
   "version": "0.0.1",
   "private": true,
-  "description": "tRPC API for org",
-  "homepage": "https://org.run",
-  "bugs": "https://github.com/org-run/org/issues",
-  "repository": "https://github.com/org-run/org",
-  "license": "AGPL-3.0-or-later",
-  "author": "org RUN LTD <contact@org.run>",
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
