@@ -9,8 +9,13 @@
     },
     "build": {
       "dependsOn": ["^build", "//#codegen"],
-      "inputs": ["src/**/*", ".env*"],
-      "outputs": [".next/**", "!.next/cache/**", "dist/**"],
+      "inputs": ["$TURBO_DEFAULT$", ".env*"],
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "dist/**",
+        "tsconfig.tsbuildinfo"
+      ],
       "persistent": false
     }
   }

@@ -19,8 +19,8 @@
     "@org/api": "workspace:*",
     "@org/utils": "workspace:*",
     "@tanstack/react-query": "^5.59.13",
-    "@trpc/client": "^11.0.0-rc.571",
-    "@trpc/react-query": "^11.0.0-rc.571",
+    "@trpc/client": "next",
+    "@trpc/react-query": "next",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "superjson": "^2.2.1"
