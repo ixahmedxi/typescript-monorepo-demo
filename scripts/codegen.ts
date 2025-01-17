@@ -92,7 +92,7 @@ const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
 
 // Remove any existing @org/router dependencies
 for (const dep in apiPackageJson.dependencies) {
-  if (dep.startsWith('@org/router')) {
+  if (dep.includes('@org/router')) {
     delete apiPackageJson.dependencies[dep]
   }
 }
@@ -121,7 +121,7 @@ rootTsConfig.references = rootTsConfig.references.filter(
 // Add references for each generated router
 for (const routerName of routerPackages) {
   rootTsConfig.references.push({
-    path: `generated-routers/${routerName}`,
+    path: `./generated-routers/${routerName}`,
   })
 }
 
