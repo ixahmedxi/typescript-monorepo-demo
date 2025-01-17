@@ -18,8 +18,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
-    "postinstall": "bun scripts/codegen.ts"
+    "dev": "tsc --watch"
   },
   "dependencies": {
     "@org/router0": "workspace:*",

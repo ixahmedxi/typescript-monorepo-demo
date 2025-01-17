@@ -5,16 +5,17 @@ import { fileURLToPath } from 'url'
 // Get the equivalent of __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+const apiPkgDir = path.join(__dirname, '../packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
 const NUM_ROUTERS = 100
 
-const PACKAGES_DIR = path.join(__dirname, '../../../generated-routers')
+const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
 } else {
-  // fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
+  fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
 }
 
 // read template files
@@ -29,7 +30,7 @@ function createRouterPackage(routerName: string) {
 
   // Delete existing package directory if it exists
   if (fs.existsSync(packageDir)) {
-    // fs.rmSync(packageDir, { recursive: true, force: true })
+    fs.rmSync(packageDir, { recursive: true, force: true })
   }
 
   const srcDir = path.join(packageDir, 'src')
@@ -48,7 +49,7 @@ function createRouterPackage(routerName: string) {
 
   fs.writeFileSync(
     path.join(packageDir, 'tsconfig.json'),
-    fs.readFileSync(path.join(__dirname, '../tsconfig.json'), 'utf-8'),
+    fs.readFileSync(path.join(apiPkgDir, 'tsconfig.json'), 'utf-8'),
   )
 }
 
@@ -72,14 +73,14 @@ export const appRouter = router({
 export type AppRouter = typeof appRouter;
 `.trim()
 
-const apiSrcDir = path.join(__dirname, '../src')
+const apiSrcDir = path.join(__dirname, 'packages/api/src')
 if (!fs.existsSync(apiSrcDir)) {
   fs.mkdirSync(apiSrcDir, { recursive: true })
 }
 fs.writeFileSync(path.join(apiSrcDir, 'index.ts'), rootIndexFile)
 
 // Add generated router packages as dependencies to api package.json
-const apiPackageJsonPath = path.join(__dirname, '../package.json')
+const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
 const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
 
 // Add each router package as a dependency
