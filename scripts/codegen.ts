@@ -78,6 +78,13 @@ fs.writeFileSync(path.join(apiSrcDir, 'index.ts'), rootIndexFile)
 const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
 const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
 
+// Remove any existing @org/router dependencies
+for (const dep in apiPackageJson.dependencies) {
+  if (dep.startsWith('@org/router')) {
+    delete apiPackageJson.dependencies[dep]
+  }
+}
+
 // Add each router package as a dependency
 for (const routerName of routerPackages) {
   apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
