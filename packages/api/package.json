@@ -20,26 +20,10 @@
       "types": "./src/server.ts"
     }
   },
-  "scripts": {
-    "build": "tsc"
-  },
+  "scripts": {},
   "dependencies": {
-    "@org/trpc": "workspace:*",
-    "@trpc/client": "next",
-    "@trpc/react-query": "next",
-    "@trpc/server": "next",
-    "superjson": "^2.2.1",
-    "zod": "^3.23.8",
     "@org/router0": "workspace:*",
     "@org/router1": "workspace:*",
-    "@org/router2": "workspace:*",
-    "@org/router3": "workspace:*",
-    "@org/router4": "workspace:*",
-    "@org/router5": "workspace:*",
-    "@org/router6": "workspace:*",
-    "@org/router7": "workspace:*",
-    "@org/router8": "workspace:*",
-    "@org/router9": "workspace:*",
     "@org/router10": "workspace:*",
     "@org/router11": "workspace:*",
     "@org/router12": "workspace:*",
@@ -50,6 +34,7 @@
     "@org/router17": "workspace:*",
     "@org/router18": "workspace:*",
     "@org/router19": "workspace:*",
+    "@org/router2": "workspace:*",
     "@org/router20": "workspace:*",
     "@org/router21": "workspace:*",
     "@org/router22": "workspace:*",
@@ -60,6 +45,7 @@
     "@org/router27": "workspace:*",
     "@org/router28": "workspace:*",
     "@org/router29": "workspace:*",
+    "@org/router3": "workspace:*",
     "@org/router30": "workspace:*",
     "@org/router31": "workspace:*",
     "@org/router32": "workspace:*",
@@ -70,6 +56,7 @@
     "@org/router37": "workspace:*",
     "@org/router38": "workspace:*",
     "@org/router39": "workspace:*",
+    "@org/router4": "workspace:*",
     "@org/router40": "workspace:*",
     "@org/router41": "workspace:*",
     "@org/router42": "workspace:*",
@@ -79,7 +66,18 @@
     "@org/router46": "workspace:*",
     "@org/router47": "workspace:*",
     "@org/router48": "workspace:*",
-    "@org/router49": "workspace:*"
+    "@org/router49": "workspace:*",
+    "@org/router5": "workspace:*",
+    "@org/router6": "workspace:*",
+    "@org/router7": "workspace:*",
+    "@org/router8": "workspace:*",
+    "@org/router9": "workspace:*",
+    "@org/trpc": "workspace:*",
+    "@trpc/client": "next",
+    "@trpc/react-query": "next",
+    "@trpc/server": "next",
+    "superjson": "^2.2.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*"

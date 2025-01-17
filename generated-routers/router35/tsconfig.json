@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@org/tsconfig/base.json"
+  ],
+  "references": [
+    {
+      "path": "../../packages/utils"
+    },
+    {
+      "path": "../../packages/trpc"
+    }
+  ]
+}

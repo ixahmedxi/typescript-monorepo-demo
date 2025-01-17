@@ -139,5 +139,5 @@ packages/api/src/routers
 .DS_Store
 
 
-generated-routers/
+# generated-routers/
 .turbo/

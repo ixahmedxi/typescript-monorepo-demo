@@ -13,9 +13,7 @@
     "./package.json": "./package.json",
     "./base-url": "./src/base-url.ts"
   },
-  "scripts": {
-    "build": "tsc"
-  },
+  "scripts": {},
   "devDependencies": {
     "@org/tsconfig": "workspace:*"
   }
