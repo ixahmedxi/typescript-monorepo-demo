@@ -18,7 +18,7 @@
   "dependencies": {
     "@org/api": "workspace:*",
     "@org/utils": "workspace:*",
-    "@tanstack/react-query": "^5.59.13",
+    "@tanstack/react-query": "latest",
     "@trpc/client": "next",
     "@trpc/react-query": "next",
     "react": "^18.3.1",

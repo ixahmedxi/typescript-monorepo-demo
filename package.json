@@ -17,14 +17,14 @@
   ],
   "scripts": {
     "build": "turbo build",
-    "watch": "turbo watch build --filter=@org/*",
+    "codegen": "bun scripts/codegen.ts",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
-    "codegen": "bun scripts/codegen.ts"
+    "watch": "turbo watch build --filter=@org/*"
   },
-  "devDependencies": {
+  "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@org/tsconfig": "workspace:^",
     "@types/bun": "^1.1.11",
@@ -34,7 +34,8 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "prettier-plugin-packagejson": "^2.5.3",
-    "typescript": "^5.6.3"
+    "turbo": "^2.3.3",
+    "typescript": "latest"
   },
   "packageManager": "bun@1.1.22"
 }
