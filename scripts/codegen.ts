@@ -44,8 +44,20 @@ function createRouterPackage(routerName: string) {
 
   fs.writeFileSync(
     path.join(packageDir, 'tsconfig.json'),
-    fs.readFileSync(path.join(apiPkgDir, 'tsconfig.json'), 'utf-8'),
+    JSON.stringify({
+      "extends": ["@org/tsconfig/base.json"],
+      "references": [
+        {
+          "path": "../../packages/utils"
+        },
+        {
+          "path": "../../packages/trpc"
+        }
+      ],
+    }, null, 2),
   )
+
+  
 }
 
 const routerPackages: string[] = []
@@ -95,3 +107,58 @@ fs.writeFileSync(
   apiPackageJsonPath,
   JSON.stringify(apiPackageJson, null, 2) + '\n',
 )
+
+
+// Update root tsconfig.json to include references to generated router packages
+const rootTsConfigPath = path.join(process.cwd(), 'tsconfig.json')
+const rootTsConfig = JSON.parse(fs.readFileSync(rootTsConfigPath, 'utf-8'))
+
+// Remove any existing router references
+rootTsConfig.references = rootTsConfig.references.filter(
+  (ref: { path: string }) => !ref.path.startsWith('generated-routers/'),
+)
+
+// Add references for each generated router
+for (const routerName of routerPackages) {
+  rootTsConfig.references.push({
+    path: `generated-routers/${routerName}`,
+  })
+}
+
+// Write updated tsconfig.json
+fs.writeFileSync(
+  rootTsConfigPath,
+  JSON.stringify(rootTsConfig, null, 2) + '\n',
+)
+
+
+// Update api tsconfig.json to include references to generated router packages
+const apiTsConfigPath = path.join(apiPkgDir, 'tsconfig.json')
+const apiTsConfigStr = fs.readFileSync(apiTsConfigPath, 'utf-8')
+const apiTsConfig = JSON.parse(apiTsConfigStr)
+
+
+// Initialize references array if it doesn't exist
+if (!apiTsConfig.references) {
+  apiTsConfig.references = []
+}
+
+// Remove any existing router references
+apiTsConfig.references = apiTsConfig.references.filter(
+  (ref: { path: string }) => !ref.path.startsWith('../../generated-routers/'),
+)
+
+// Add references for each generated router
+for (const routerName of routerPackages) {
+  apiTsConfig.references.push({
+    path: `../../generated-routers/${routerName}`,
+  })
+}
+
+// Write updated tsconfig.json
+fs.writeFileSync(
+  apiTsConfigPath,
+  JSON.stringify(apiTsConfig, null, 2) + '\n',
+)
+
+

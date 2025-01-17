@@ -44,7 +44,7 @@
     "baseUrl": "${configDir}",
     "outDir": "${configDir}/dist",
     "rootDir": "${configDir}",
-    "composite": false,
+    "composite": true,
     "noEmitOnError": true
   },
   "include": ["${configDir}/src/**/*"]

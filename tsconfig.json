@@ -1,4 +1,172 @@
 {
-  "extends": ["@org/tsconfig/base.json"],
-  "include": ["./scripts/**/*"]
+  "extends": [
+    "@org/tsconfig/base.json"
+  ],
+  "include": [
+    "./scripts/**/*"
+  ],
+  "references": [
+    {
+      "path": "apps/web"
+    },
+    {
+      "path": "packages/api"
+    },
+    {
+      "path": "packages/utils"
+    },
+    {
+      "path": "packages/trpc"
+    },
+    {
+      "path": "generated-routers/router0"
+    },
+    {
+      "path": "generated-routers/router1"
+    },
+    {
+      "path": "generated-routers/router2"
+    },
+    {
+      "path": "generated-routers/router3"
+    },
+    {
+      "path": "generated-routers/router4"
+    },
+    {
+      "path": "generated-routers/router5"
+    },
+    {
+      "path": "generated-routers/router6"
+    },
+    {
+      "path": "generated-routers/router7"
+    },
+    {
+      "path": "generated-routers/router8"
+    },
+    {
+      "path": "generated-routers/router9"
+    },
+    {
+      "path": "generated-routers/router10"
+    },
+    {
+      "path": "generated-routers/router11"
+    },
+    {
+      "path": "generated-routers/router12"
+    },
+    {
+      "path": "generated-routers/router13"
+    },
+    {
+      "path": "generated-routers/router14"
+    },
+    {
+      "path": "generated-routers/router15"
+    },
+    {
+      "path": "generated-routers/router16"
+    },
+    {
+      "path": "generated-routers/router17"
+    },
+    {
+      "path": "generated-routers/router18"
+    },
+    {
+      "path": "generated-routers/router19"
+    },
+    {
+      "path": "generated-routers/router20"
+    },
+    {
+      "path": "generated-routers/router21"
+    },
+    {
+      "path": "generated-routers/router22"
+    },
+    {
+      "path": "generated-routers/router23"
+    },
+    {
+      "path": "generated-routers/router24"
+    },
+    {
+      "path": "generated-routers/router25"
+    },
+    {
+      "path": "generated-routers/router26"
+    },
+    {
+      "path": "generated-routers/router27"
+    },
+    {
+      "path": "generated-routers/router28"
+    },
+    {
+      "path": "generated-routers/router29"
+    },
+    {
+      "path": "generated-routers/router30"
+    },
+    {
+      "path": "generated-routers/router31"
+    },
+    {
+      "path": "generated-routers/router32"
+    },
+    {
+      "path": "generated-routers/router33"
+    },
+    {
+      "path": "generated-routers/router34"
+    },
+    {
+      "path": "generated-routers/router35"
+    },
+    {
+      "path": "generated-routers/router36"
+    },
+    {
+      "path": "generated-routers/router37"
+    },
+    {
+      "path": "generated-routers/router38"
+    },
+    {
+      "path": "generated-routers/router39"
+    },
+    {
+      "path": "generated-routers/router40"
+    },
+    {
+      "path": "generated-routers/router41"
+    },
+    {
+      "path": "generated-routers/router42"
+    },
+    {
+      "path": "generated-routers/router43"
+    },
+    {
+      "path": "generated-routers/router44"
+    },
+    {
+      "path": "generated-routers/router45"
+    },
+    {
+      "path": "generated-routers/router46"
+    },
+    {
+      "path": "generated-routers/router47"
+    },
+    {
+      "path": "generated-routers/router48"
+    },
+    {
+      "path": "generated-routers/router49"
+    }
+  ]
 }

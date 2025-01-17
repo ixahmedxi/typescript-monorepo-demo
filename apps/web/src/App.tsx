@@ -3,6 +3,7 @@ import { trpcReact } from '@org/api/react'
 export function App() {
   const { data } = trpcReact.router0.foo.useQuery()
   
+  
 
   if (data === 'bar') {
     return 'bar'
