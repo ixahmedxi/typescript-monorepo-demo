@@ -139,3 +139,4 @@ packages/api/src/routers
 .DS_Store
 
 generated-routers/
+.turbo/

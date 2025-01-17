@@ -12,7 +12,6 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch",
     "postinstall": "bun scripts/codegen.ts"
   },
   "dependencies": {

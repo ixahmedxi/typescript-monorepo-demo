@@ -17,8 +17,7 @@
     }
   },
   "scripts": {
-    "build": "tsc",
-    "dev": "tsc --watch"
+    "build": "tsc"
   },
   "dependencies": {
     "@org/router0": "workspace:*",
