@@ -16,6 +16,9 @@
       "default": "./dist/base-url.js"
     }
   },
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@org/tsconfig": "workspace:*"
   }

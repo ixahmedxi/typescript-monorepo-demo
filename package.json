@@ -16,7 +16,10 @@
     "routers/*"
   ],
   "scripts": {
-    "build-api": "bun --filter './packages/api' build",
+    "build": "bun run build:1-utils && bun run build:2-api && bun run build:3-apps",
+    "build:1-utils": "bun --filter './packages/utils' build",
+    "build:2-api": "bun --filter './packages/api' build",
+    "build:3-apps": "bun --filter './apps/*' build",
     "dev": "bun --cwd packages/api dev",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
