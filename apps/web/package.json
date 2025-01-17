@@ -21,6 +21,7 @@
     "@tanstack/react-query": "^5.59.13",
     "@trpc/client": "next",
     "@trpc/react-query": "next",
+    "@trpc/server": "next",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "superjson": "^2.2.1"

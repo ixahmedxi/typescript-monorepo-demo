@@ -14,7 +14,6 @@
     ".": "./src/index.ts"
   },
   "scripts": {
-    "postinstall": "bun scripts/codegen.ts"
   },
   "dependencies": {
     "@trpc/server": "next",

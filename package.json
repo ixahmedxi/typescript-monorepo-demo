@@ -22,7 +22,8 @@
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
-    "codegen": "bun scripts/codegen.ts"
+    "codegen": "bun scripts/codegen.ts",
+    "postinstall": "bun scripts/codegen.ts"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",

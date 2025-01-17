@@ -48,5 +48,10 @@
     "noEmitOnError": true,
     "assumeChangesOnlyAffectDirectDependencies": true
   },
-  "include": ["${configDir}/src/**/*"]
+  "include": ["${configDir}/src/**/*"],
+  "watchOptions": {
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    "fallbackPolling": "dynamicPriority"
+  }
 }

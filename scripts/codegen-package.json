@@ -11,7 +11,6 @@
     }
   },
   "scripts": {
-    "postinstall": "bun scripts/codegen.ts"
   },
   "dependencies": {
     "@org/trpc": "workspace:*",
