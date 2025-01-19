@@ -14,10 +14,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@org/trpc": "workspace:*",
-    "@trpc/server": "next",
-    "superjson": "^2.2.1",
-    "zod": "^3.23.8"
+    "@org/utils": "workspace:*"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*"

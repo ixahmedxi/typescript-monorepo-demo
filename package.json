@@ -14,7 +14,7 @@
     "codegen": "tsx scripts/codegen.ts",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
-    "postinstall": "run-s codegen build",
+    "postinstall": "run-s build",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
     "watch": "turbo watch build --filter=@org/*"

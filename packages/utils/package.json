@@ -11,9 +11,9 @@
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
-    "./base-url": {
-      "types": "./dist/src/base-url.d.ts",
-      "default": "./dist/src/base-url.js"
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
     }
   },
   "scripts": {

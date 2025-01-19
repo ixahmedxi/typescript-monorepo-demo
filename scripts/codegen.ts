@@ -9,9 +9,9 @@ const apiPkgDir = path.join(__dirname, '../packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
-const NUM_ROUTERS = 50
+const NUM_ROUTERS = 1
 
-const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
+const PACKAGES_DIR = path.join(__dirname, '../generated-packages')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
 } else {
@@ -39,7 +39,9 @@ function createRouterPackage(routerName: string) {
   fs.writeFileSync(path.join(packageDir, 'package.json'), routerPackageJson)
 
   // Create index.ts with router implementation
-  const routerCode = codegenBase.replace('__ROUTER__NAME__', routerName)
+  const routerCode = codegenBase
+    .replace('__ROUTER__NAME__', routerName)
+    .replace(new RegExp('.*\/\/ @ts-expect-error .*', 'g'), '')
   fs.writeFileSync(path.join(srcDir, 'index.ts'), routerCode)
 
   fs.writeFileSync(
@@ -57,13 +59,13 @@ for (let i = 0; i < NUM_ROUTERS; i++) {
 
 // Create root package that exports all routers
 const rootIndexFile = `
-import { router } from '@org/trpc';
+import { type FnRecord } from '@org/utils';
 
 ${routerPackages.map((name) => `import { ${name} } from '@org/${name}';`).join('\n')}
 
-export const appRouter = router({
+export const appRouter = {
   ${routerPackages.join(',\n  ')}
-});
+} satisfies FnRecord;
 
 export type AppRouter = typeof appRouter;
 `.trim()

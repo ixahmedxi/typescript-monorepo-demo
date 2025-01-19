@@ -5,7 +5,7 @@
     "//#codegen": {
       "cache": true,
       "inputs": ["$TURBO_DEFAULT$", "scripts/**/*"],
-      "outputs": ["generated-routers/**"]
+      "outputs": ["generated-packages/**"]
     },
     "build": {
       "dependsOn": ["^build", "//#codegen"],
