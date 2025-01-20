@@ -9,18 +9,11 @@
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
-    "watch": "turbo watch build --filter=@org/*"
+    "watch": "turbo watch build"
   },
   "dependencies": {
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
     "@org/tsconfig": "workspace:^",
-    "@types/bun": "^1.1.11",
-    "cspell": "^8.15.1",
-    "markdownlint": "^0.35.0",
-    "markdownlint-cli": "^0.42.0",
-    "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
-    "prettier-plugin-packagejson": "^2.5.3",
     "tsx": "^4.19.2",
     "turbo": "^2.3.3",
     "typescript": "npm:@kitchensink/typescript-pr60005@latest"

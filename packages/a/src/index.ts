@@ -1,3 +1,6 @@
 export const a = {
-  foo: 'bar',
+  foo: 'foo',
+  bar: 'bar',
+  baz: 'baz',
+  qux: 'qux',
 } as const
