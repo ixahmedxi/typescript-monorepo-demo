@@ -1,3 +1,3 @@
 import { appRouter } from '@org/api'
 
-appRouter.router0.foo
+appRouter.router0.foo()

@@ -1,9 +1,7 @@
-import { type FnRecord } from '@org/utils';
-
-import { router0 } from '@org/router0';
+import { router0 } from '@org/router0'
 
 export const appRouter = {
-  router0
-} satisfies FnRecord;
+  router0,
+}
 
-export type AppRouter = typeof appRouter;
+export type AppRouter = typeof appRouter
