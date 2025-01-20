@@ -1,5 +1,5 @@
 {
-  "name": "@org/__ROUTER__NAME__",
+  "name": "@org/a",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -13,9 +13,7 @@
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {
-    "@org/utils": "workspace:*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@org/tsconfig": "workspace:*"
   }

@@ -1,7 +1,0 @@
-// @ts-expect-error this is a codegen template
-
-import type { FnRecord } from '@org/utils'
-
-export const __ROUTER__NAME__ = {
-  foo: () => 'bar',
-} satisfies FnRecord

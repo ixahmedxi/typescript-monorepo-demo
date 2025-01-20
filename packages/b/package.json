@@ -1,5 +1,5 @@
 {
-  "name": "@org/router0",
+  "name": "@org/b",
   "version": "0.0.1",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@org/utils": "workspace:*"
+    "@org/a": "workspace:*"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*"

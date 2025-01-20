@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
-    "codegen": "tsx scripts/codegen.ts",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",

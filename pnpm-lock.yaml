@@ -45,40 +45,27 @@ importers:
         specifier: npm:@kitchensink/typescript-pr60005@latest
         version: '@kitchensink/typescript-pr60005@5.8.0'
 
-  apps/server:
-    dependencies:
-      '@org/api':
-        specifier: workspace:*
-        version: link:../../packages/api
+  packages/a:
     devDependencies:
       '@org/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-packages/router0:
+  packages/b:
     dependencies:
-      '@org/utils':
+      '@org/a':
         specifier: workspace:*
-        version: link:../../packages/utils
+        version: link:../a
     devDependencies:
       '@org/tsconfig':
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  packages/api:
+  packages/c:
     dependencies:
-      '@org/router0':
+      '@org/b':
         specifier: workspace:*
-        version: link:../../generated-packages/router0
-      '@org/utils':
-        specifier: workspace:*
-        version: link:../utils
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  packages/utils:
+        version: link:../b
     devDependencies:
       '@org/tsconfig':
         specifier: workspace:*

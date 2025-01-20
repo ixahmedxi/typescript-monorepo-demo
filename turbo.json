@@ -1,14 +1,8 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "ui": "tui",
   "tasks": {
-    "//#codegen": {
-      "cache": true,
-      "inputs": ["$TURBO_DEFAULT$", "scripts/**/*"],
-      "outputs": ["generated-packages/**"]
-    },
     "build": {
-      "dependsOn": ["^build", "//#codegen"],
+      "dependsOn": ["^build"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [
         ".next/**",
