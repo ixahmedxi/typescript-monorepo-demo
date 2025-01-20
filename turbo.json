@@ -1,10 +1,9 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "ui": "tui",
   "tasks": {
     "//#codegen": {
       "cache": true,
-      "inputs": ["$TURBO_DEFAULT$", "scripts/**/*"],
+      "inputs": ["$TURBO_DEFAULT$", "./scripts/**/*"],
       "outputs": ["generated-routers/**"]
     },
     "build": {

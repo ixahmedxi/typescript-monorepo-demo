@@ -1,3 +1,4 @@
+import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -14,8 +15,6 @@ const NUM_ROUTERS = 50
 const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
   fs.mkdirSync(PACKAGES_DIR, { recursive: true })
-} else {
-  fs.rmSync(PACKAGES_DIR, { recursive: true, force: true })
 }
 
 // read template files
@@ -49,10 +48,18 @@ function createRouterPackage(routerName: string) {
 }
 
 const routerPackages: string[] = []
-for (let i = 0; i < NUM_ROUTERS; i++) {
+for (let i = 1; i <= NUM_ROUTERS; i++) {
   const routerName = `router${i}`
   routerPackages.push(routerName)
   createRouterPackage(routerName)
+}
+
+// Remove all folders in generated-routers that isn't in routerPackages
+const generatedRouters = fs.readdirSync(PACKAGES_DIR)
+for (const router of generatedRouters) {
+  if (!routerPackages.includes(router)) {
+    fs.rmdirSync(path.join(PACKAGES_DIR, router), { recursive: true })
+  }
 }
 
 // Create root package that exports all routers
@@ -68,11 +75,7 @@ export const appRouter = router({
 export type AppRouter = typeof appRouter;
 `.trim()
 
-const apiSrcDir = path.join(apiPkgDir, 'src')
-if (!fs.existsSync(apiSrcDir)) {
-  fs.mkdirSync(apiSrcDir, { recursive: true })
-}
-fs.writeFileSync(path.join(apiSrcDir, 'index.ts'), rootIndexFile)
+fs.writeFileSync(path.join(apiPkgDir, 'src/server.ts'), rootIndexFile)
 
 // Add generated router packages as dependencies to api package.json
 const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
@@ -95,3 +98,7 @@ fs.writeFileSync(
   apiPackageJsonPath,
   JSON.stringify(apiPackageJson, null, 2) + '\n',
 )
+
+execSync(`pnpm install`, {
+  stdio: 'inherit',
+})

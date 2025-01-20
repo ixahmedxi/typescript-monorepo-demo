@@ -2,22 +2,15 @@
   "name": "org",
   "version": "0.0.1",
   "private": true,
-  "description": "Rethinking Student Productivity",
-  "homepage": "https://org.run",
-  "bugs": "https://github.com/org-run/org/issues",
-  "repository": "https://github.com/org-run/org",
-  "license": "AGPL-3.0-or-later",
-  "author": "org RUN LTD <contact@org.run>",
   "type": "module",
   "scripts": {
     "build": "turbo build",
     "codegen": "tsx scripts/codegen.ts",
+    "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
-    "postinstall": "run-s codegen build",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
-    "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
-    "watch": "turbo watch build --filter=@org/*"
+    "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique"
   },
   "dependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.3.1",

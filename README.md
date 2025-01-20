@@ -1,7 +1,14 @@
 # TypeScript Monorepo Demo
 
 ```shell
-bun i
-bun run build
-bun watch
+git clone git@github.com:ixahmedxi/typescript-monorepo-demo.git -b 01-17-micro-apis
+cd 01-17-micro-apis
+pnpm i
+pnpm build
+```
+
+## Run watch
+
+```shell
+pnpm run watch
 ```

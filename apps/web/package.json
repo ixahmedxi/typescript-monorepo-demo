@@ -2,10 +2,7 @@
   "name": "app",
   "version": "0.0.1",
   "private": true,
-  "description": "The web2 app for org",
   "homepage": "https://org.run",
-  "bugs": "https://github.com/org-run/org/issues",
-  "repository": "https://github.com/org-run/org",
   "license": "AGPL-3.0-or-later",
   "author": "org <contact@org.run>",
   "type": "module",
@@ -17,7 +14,6 @@
   },
   "dependencies": {
     "@org/api": "workspace:*",
-    "@org/utils": "workspace:*",
     "@tanstack/react-query": "latest",
     "@trpc/client": "next",
     "@trpc/react-query": "next",

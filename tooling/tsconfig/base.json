@@ -47,5 +47,5 @@
     "composite": false,
     "noEmitOnError": true
   },
-  "include": ["${configDir}/src/**/*"]
+  "include": ["${configDir}/**/*"]
 }

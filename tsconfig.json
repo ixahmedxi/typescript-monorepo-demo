@@ -1,4 +1,3 @@
 {
-  "extends": ["@org/tsconfig/base.json"],
-  "include": ["./scripts/**/*"]
+  "extends": ["@org/tsconfig/base.json"]
 }

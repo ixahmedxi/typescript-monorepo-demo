@@ -1,6 +1,5 @@
 import { router } from '@org/trpc';
 
-import { router0 } from '@org/router0';
 import { router1 } from '@org/router1';
 import { router2 } from '@org/router2';
 import { router3 } from '@org/router3';
@@ -50,9 +49,9 @@ import { router46 } from '@org/router46';
 import { router47 } from '@org/router47';
 import { router48 } from '@org/router48';
 import { router49 } from '@org/router49';
+import { router50 } from '@org/router50';
 
 export const appRouter = router({
-  router0,
   router1,
   router2,
   router3,
@@ -101,7 +100,8 @@ export const appRouter = router({
   router46,
   router47,
   router48,
-  router49
+  router49,
+  router50
 });
 
 export type AppRouter = typeof appRouter;

@@ -2,12 +2,6 @@
   "name": "@org/api",
   "version": "0.0.1",
   "private": true,
-  "description": "tRPC API for org",
-  "homepage": "https://org.run",
-  "bugs": "https://github.com/org-run/org/issues",
-  "repository": "https://github.com/org-run/org",
-  "license": "AGPL-3.0-or-later",
-  "author": "org RUN LTD <contact@org.run>",
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
@@ -30,7 +24,6 @@
     "@trpc/server": "next",
     "superjson": "^2.2.1",
     "zod": "^3.23.8",
-    "@org/router0": "workspace:*",
     "@org/router1": "workspace:*",
     "@org/router2": "workspace:*",
     "@org/router3": "workspace:*",
@@ -79,7 +72,8 @@
     "@org/router46": "workspace:*",
     "@org/router47": "workspace:*",
     "@org/router48": "workspace:*",
-    "@org/router49": "workspace:*"
+    "@org/router49": "workspace:*",
+    "@org/router50": "workspace:*"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*"
