@@ -99,6 +99,6 @@ fs.writeFileSync(
   JSON.stringify(apiPackageJson, null, 2) + '\n',
 )
 
-execSync(`pnpm install`, {
+execSync(`pnpm install --ignore-scripts`, {
   stdio: 'inherit',
 })

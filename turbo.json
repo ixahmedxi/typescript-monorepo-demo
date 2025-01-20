@@ -3,6 +3,7 @@
   "tasks": {
     "//#codegen": {
       "cache": true,
+      "persistent": false,
       "inputs": ["$TURBO_DEFAULT$", "./scripts/**/*"],
       "outputs": ["generated-routers/**"]
     },

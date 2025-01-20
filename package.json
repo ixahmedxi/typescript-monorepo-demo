@@ -9,6 +9,7 @@
     "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
+    "postinstall": "pnpm run build",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique"
   },
