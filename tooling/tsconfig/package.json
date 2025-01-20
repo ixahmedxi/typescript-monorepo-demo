@@ -1,16 +1,10 @@
 {
-  "name": "@org/tsconfig",
-  "version": "0.0.1",
-  "private": true,
-  "description": "A package to share tsconfig presets around the workspace",
-  "homepage": "https://org.run",
-  "bugs": "https://github.com/org-run/org/issues",
-  "repository": "https://github.com/org-run/org",
-  "license": "AGPL-3.0-or-later",
-  "author": "org RUN LTD <contact@org.run>",
-  "type": "module",
-  "files": [
-    "./base.json",
-    "./react.json"
-  ]
+	"name": "@org/tsconfig",
+	"version": "0.0.1",
+	"private": true,
+	"description": "A package to share tsconfig presets around the workspace",
+	"type": "module",
+	"files": [
+		"./base.json"
+	]
 }

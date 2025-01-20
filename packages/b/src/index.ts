@@ -1,8 +1,8 @@
-import { a } from '@org/a'
+import { a } from '@org/a';
 
-a.foo
+a.foo;
 // ^?
 
 export const b = {
-  a,
-} as const
+	a,
+} as const;

@@ -1,22 +1,22 @@
 {
-  "name": "@org/b",
-  "version": "0.0.1",
-  "private": true,
-  "type": "module",
-  "exports": {
-    "./package.json": "./package.json",
-    ".": {
-      "types": "./dist/src/index.d.ts",
-      "default": "./dist/src/index.js"
-    }
-  },
-  "scripts": {
-    "build": "tsc"
-  },
-  "dependencies": {
-    "@org/a": "workspace:*"
-  },
-  "devDependencies": {
-    "@org/tsconfig": "workspace:*"
-  }
+	"name": "@org/b",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"exports": {
+		"./package.json": "./package.json",
+		".": {
+			"types": "./dist/src/index.d.ts",
+			"default": "./dist/src/index.js"
+		}
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@org/a": "workspace:*"
+	},
+	"devDependencies": {
+		"@org/tsconfig": "workspace:*"
+	}
 }

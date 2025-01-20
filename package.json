@@ -1,22 +1,20 @@
 {
-  "name": "org",
-  "version": "0.0.1",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "build": "turbo build",
-    "format": "prettier \"**/*\" --ignore-unknown --list-different",
-    "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
-    "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
-    "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique",
-    "watch": "turbo watch build"
-  },
-  "dependencies": {
-    "@org/tsconfig": "workspace:^",
-    "prettier": "^3.3.3",
-    "tsx": "^4.19.2",
-    "turbo": "^2.3.3",
-    "typescript": "npm:@kitchensink/typescript-pr60005@latest"
-  },
-  "packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
+	"name": "org",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "turbo build",
+		"format": "prettier \"**/*\" --ignore-unknown --list-different --write",
+		"watch": "turbo watch build",
+		"dev": "turbo watch build"
+	},
+	"dependencies": {
+		"@org/tsconfig": "workspace:^",
+		"prettier": "^3.3.3",
+		"tsx": "^4.19.2",
+		"turbo": "^2.3.3",
+		"typescript": "npm:@kitchensink/typescript-pr60005@latest"
+	},
+	"packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }

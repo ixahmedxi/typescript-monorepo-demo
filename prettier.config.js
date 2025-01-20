@@ -1,9 +1,10 @@
-/** @type {import('@ianvs/prettier-plugin-sort-imports').PrettierConfig} */
+/** @type {import('prettier').Config} */
 const config = {
-  semi: true,
-  singleQuote: true,
-  trailingComma: 'all',
-  printWidth: 80,
+	semi: true,
+	singleQuote: true,
+	trailingComma: 'all',
+	printWidth: 80,
+	useTabs: true,
 };
 
 export default config;

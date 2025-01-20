@@ -1,4 +1,4 @@
-import { b } from '@org/b'
+import { b } from '@org/b';
 
-b.a.foo
+b.a.foo;
 //   ^?

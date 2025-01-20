@@ -1,17 +1,17 @@
 {
-  "$schema": "https://turbo.build/schema.json",
-  "tasks": {
-    "build": {
-      "dependsOn": ["^build"],
-      "inputs": ["$TURBO_DEFAULT$", ".env*"],
-      "outputs": [
-        ".next/**",
-        "!.next/cache/**",
-        "dist/**",
-        "tsconfig.tsbuildinfo"
-      ],
-      "persistent": false,
-      "cache": true
-    }
-  }
+	"$schema": "https://turbo.build/schema.json",
+	"tasks": {
+		"build": {
+			"dependsOn": ["^build"],
+			"inputs": ["$TURBO_DEFAULT$", ".env*"],
+			"outputs": [
+				".next/**",
+				"!.next/cache/**",
+				"dist/**",
+				"tsconfig.tsbuildinfo"
+			],
+			"persistent": false,
+			"cache": true
+		}
+	}
 }
