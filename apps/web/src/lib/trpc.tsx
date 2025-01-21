@@ -4,9 +4,12 @@ import { useState } from 'react'
 
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { httpBatchLink } from '@trpc/client'
+import { createTRPCReact } from '@trpc/react-query'
 import superjson from 'superjson'
 
-import { trpcReact } from '@org/api/react'
+import { AppRouter } from '@org/api'
+
+export const trpcReact = createTRPCReact<AppRouter>()
 
 function getBaseUrl() {
   if (typeof window !== 'undefined') {

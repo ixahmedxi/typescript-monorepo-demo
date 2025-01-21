@@ -5,13 +5,9 @@
   "type": "module",
   "exports": {
     "./package.json": "./package.json",
-    "./server": {
-      "types": "./dist/src/server.d.ts",
-      "default": "./dist/src/server.js"
-    },
-    "./react": {
-      "types": "./dist/src/react.d.ts",
-      "default": "./dist/src/react.js"
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
     }
   },
   "scripts": {

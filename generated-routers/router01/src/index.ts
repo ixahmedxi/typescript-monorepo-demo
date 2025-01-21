@@ -1,7 +1,6 @@
-import { TRPCRouterRecord } from '@trpc/server'
 import { z } from 'zod'
 
-import { publicProcedure } from '@org/trpc'
+import { publicProcedure, router } from '@org/trpc'
 
 // Recursive nightmare types
 type DeepNestedType = { [K: string]: DeepNestedType | unknown }
@@ -48,7 +47,7 @@ const createNestedDiscriminatedUnion = (depth: number): z.ZodType<any> => {
   ])
 }
 
-export const router01 = {
+export const router01 = router({
   foo: publicProcedure.query(() => 'bar' as const),
   quantum: {
     superposition: {
@@ -223,4 +222,4 @@ export const router01 = {
         ),
     },
   },
-} satisfies TRPCRouterRecord
+})
