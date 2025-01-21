@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
+    "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist **/node_modules",
     "codegen": "tsx scripts/codegen.ts",
     "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
@@ -23,6 +24,7 @@
     "npm-run-all": "^4.1.5",
     "prettier": "^3.3.3",
     "prettier-plugin-packagejson": "^2.5.3",
+    "rimraf": "^6.0.1",
     "tsx": "^4.19.2",
     "turbo": "^2.3.3",
     "typescript": "npm:@kitchensink/typescript-pr60005@latest"

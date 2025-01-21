@@ -35,6 +35,9 @@ importers:
       prettier-plugin-packagejson:
         specifier: ^2.5.3
         version: 2.5.8(prettier@3.4.2)
+      rimraf:
+        specifier: ^6.0.1
+        version: 6.0.1
       tsx:
         specifier: ^4.19.2
         version: 4.19.2
@@ -52,13 +55,13 @@ importers:
         version: link:../../packages/api
       '@tanstack/react-query':
         specifier: latest
-        version: 5.64.1(react@18.3.1)
+        version: 5.64.2(react@18.3.1)
       '@trpc/client':
         specifier: next
-        version: 11.0.0-rc.700(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
+        version: 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
         specifier: next
-        version: 11.0.0-rc.700(@tanstack/react-query@5.64.1(react@18.3.1))(@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -85,26 +88,7 @@ importers:
         specifier: ^5.4.8
         version: 5.4.11(@types/node@20.12.14)
 
-  generated-routers/router1:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.700(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router10:
+  generated-routers/router01:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -123,7 +107,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router11:
+  generated-routers/router02:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -142,881 +126,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router12:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router13:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router14:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router15:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router16:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router17:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router18:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router19:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router2:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.700(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router20:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router21:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router22:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router23:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router24:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router25:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router26:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router27:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router28:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router29:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router3:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router30:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router31:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router32:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router33:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router34:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router35:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router36:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router37:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router38:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router39:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router4:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router40:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router41:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router42:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router43:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router44:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router45:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router46:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router47:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router48:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router49:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router5:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router50:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router6:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router7:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router8:
-    dependencies:
-      '@org/trpc':
-        specifier: workspace:*
-        version: link:../../packages/trpc
-      '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
-      superjson:
-        specifier: ^2.2.1
-        version: 2.2.2
-      zod:
-        specifier: ^3.23.8
-        version: 3.24.1
-    devDependencies:
-      '@org/tsconfig':
-        specifier: workspace:*
-        version: link:../../tooling/tsconfig
-
-  generated-routers/router9:
+  generated-routers/router03:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1037,168 +147,27 @@ importers:
 
   packages/api:
     dependencies:
-      '@org/router1':
+      '@org/router01':
         specifier: workspace:*
-        version: link:../../generated-routers/router1
-      '@org/router10':
+        version: link:../../generated-routers/router01
+      '@org/router02':
         specifier: workspace:*
-        version: link:../../generated-routers/router10
-      '@org/router11':
+        version: link:../../generated-routers/router02
+      '@org/router03':
         specifier: workspace:*
-        version: link:../../generated-routers/router11
-      '@org/router12':
-        specifier: workspace:*
-        version: link:../../generated-routers/router12
-      '@org/router13':
-        specifier: workspace:*
-        version: link:../../generated-routers/router13
-      '@org/router14':
-        specifier: workspace:*
-        version: link:../../generated-routers/router14
-      '@org/router15':
-        specifier: workspace:*
-        version: link:../../generated-routers/router15
-      '@org/router16':
-        specifier: workspace:*
-        version: link:../../generated-routers/router16
-      '@org/router17':
-        specifier: workspace:*
-        version: link:../../generated-routers/router17
-      '@org/router18':
-        specifier: workspace:*
-        version: link:../../generated-routers/router18
-      '@org/router19':
-        specifier: workspace:*
-        version: link:../../generated-routers/router19
-      '@org/router2':
-        specifier: workspace:*
-        version: link:../../generated-routers/router2
-      '@org/router20':
-        specifier: workspace:*
-        version: link:../../generated-routers/router20
-      '@org/router21':
-        specifier: workspace:*
-        version: link:../../generated-routers/router21
-      '@org/router22':
-        specifier: workspace:*
-        version: link:../../generated-routers/router22
-      '@org/router23':
-        specifier: workspace:*
-        version: link:../../generated-routers/router23
-      '@org/router24':
-        specifier: workspace:*
-        version: link:../../generated-routers/router24
-      '@org/router25':
-        specifier: workspace:*
-        version: link:../../generated-routers/router25
-      '@org/router26':
-        specifier: workspace:*
-        version: link:../../generated-routers/router26
-      '@org/router27':
-        specifier: workspace:*
-        version: link:../../generated-routers/router27
-      '@org/router28':
-        specifier: workspace:*
-        version: link:../../generated-routers/router28
-      '@org/router29':
-        specifier: workspace:*
-        version: link:../../generated-routers/router29
-      '@org/router3':
-        specifier: workspace:*
-        version: link:../../generated-routers/router3
-      '@org/router30':
-        specifier: workspace:*
-        version: link:../../generated-routers/router30
-      '@org/router31':
-        specifier: workspace:*
-        version: link:../../generated-routers/router31
-      '@org/router32':
-        specifier: workspace:*
-        version: link:../../generated-routers/router32
-      '@org/router33':
-        specifier: workspace:*
-        version: link:../../generated-routers/router33
-      '@org/router34':
-        specifier: workspace:*
-        version: link:../../generated-routers/router34
-      '@org/router35':
-        specifier: workspace:*
-        version: link:../../generated-routers/router35
-      '@org/router36':
-        specifier: workspace:*
-        version: link:../../generated-routers/router36
-      '@org/router37':
-        specifier: workspace:*
-        version: link:../../generated-routers/router37
-      '@org/router38':
-        specifier: workspace:*
-        version: link:../../generated-routers/router38
-      '@org/router39':
-        specifier: workspace:*
-        version: link:../../generated-routers/router39
-      '@org/router4':
-        specifier: workspace:*
-        version: link:../../generated-routers/router4
-      '@org/router40':
-        specifier: workspace:*
-        version: link:../../generated-routers/router40
-      '@org/router41':
-        specifier: workspace:*
-        version: link:../../generated-routers/router41
-      '@org/router42':
-        specifier: workspace:*
-        version: link:../../generated-routers/router42
-      '@org/router43':
-        specifier: workspace:*
-        version: link:../../generated-routers/router43
-      '@org/router44':
-        specifier: workspace:*
-        version: link:../../generated-routers/router44
-      '@org/router45':
-        specifier: workspace:*
-        version: link:../../generated-routers/router45
-      '@org/router46':
-        specifier: workspace:*
-        version: link:../../generated-routers/router46
-      '@org/router47':
-        specifier: workspace:*
-        version: link:../../generated-routers/router47
-      '@org/router48':
-        specifier: workspace:*
-        version: link:../../generated-routers/router48
-      '@org/router49':
-        specifier: workspace:*
-        version: link:../../generated-routers/router49
-      '@org/router5':
-        specifier: workspace:*
-        version: link:../../generated-routers/router5
-      '@org/router50':
-        specifier: workspace:*
-        version: link:../../generated-routers/router50
-      '@org/router6':
-        specifier: workspace:*
-        version: link:../../generated-routers/router6
-      '@org/router7':
-        specifier: workspace:*
-        version: link:../../generated-routers/router7
-      '@org/router8':
-        specifier: workspace:*
-        version: link:../../generated-routers/router8
-      '@org/router9':
-        specifier: workspace:*
-        version: link:../../generated-routers/router9
+        version: link:../../generated-routers/router03
       '@org/trpc':
         specifier: workspace:*
         version: link:../trpc
       '@trpc/client':
         specifier: next
-        version: 11.0.0-rc.700(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(typescript@5.7.3)
+        version: 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
         specifier: next
-        version: 11.0.0-rc.700(@tanstack/react-query@5.64.1(react@18.3.1))(@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        version: 11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.700(typescript@5.7.3)
+        version: 11.0.0-rc.708(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1214,7 +183,7 @@ importers:
     dependencies:
       '@trpc/server':
         specifier: next
-        version: 11.0.0-rc.700(typescript@5.7.3)
+        version: 11.0.0-rc.708(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -1974,33 +943,28 @@ packages:
   '@swc/types@0.1.17':
     resolution: {integrity: sha512-V5gRru+aD8YVyCOMAjMpWR1Ui577DD5KSJsHP8RAxopAH22jFz6GZd/qxqjO6MJHQhcsjvjOFXyDhyLQUnMveQ==}
 
-  '@tanstack/query-core@5.64.1':
-    resolution: {integrity: sha512-978Wx4Wl4UJZbmvU/rkaM9cQtXXrbhK0lsz/UZhYIbyKYA8E4LdomTwyh2GHZ4oU0BKKoDH4YlKk2VscCUgNmg==}
+  '@tanstack/query-core@5.64.2':
+    resolution: {integrity: sha512-hdO8SZpWXoADNTWXV9We8CwTkXU88OVWRBcsiFrk7xJQnhm6WRlweDzMD+uH+GnuieTBVSML6xFa17C2cNV8+g==}
 
-  '@tanstack/react-query@5.64.1':
-    resolution: {integrity: sha512-vW5ggHpIO2Yjj44b4sB+Fd3cdnlMJppXRBJkEHvld6FXh3j5dwWJoQo7mGtKI2RbSFyiyu/PhGAy0+Vv5ev9Eg==}
+  '@tanstack/react-query@5.64.2':
+    resolution: {integrity: sha512-3pakNscZNm8KJkxmovvtZ4RaXLyiYYobwleTMvpIGUoKRa8j8VlrQKNl5W8VUEfVfZKkikvXVddLuWMbcSCA1Q==}
     peerDependencies:
       react: ^18 || ^19
 
-  '@trpc/client@11.0.0-rc.700':
-    resolution: {integrity: sha512-8yktSkK/jbDss4pA+3EwwDY972qBrvGN49Kpa7oA/0My40YohlEwrEwLLI5+rdICUi3MFv7jkqzKydgXHJJPRw==}
+  '@trpc/client@11.0.0-rc.708':
+    resolution: {integrity: sha512-8bVmfzvr62yIBuxmEJyQyDqEcK3SNfq0WWAwFhOAetdOk8EvmlC2JTbE8t3ug3HQ+xZmu/43tiOOFGa/O3FTrQ==}
     peerDependencies:
-      '@trpc/server': 11.0.0-rc.700+e5c0c1a82
+      '@trpc/server': 11.0.0-rc.708+209e9ad21
       typescript: '>=5.7.2'
 
-  '@trpc/react-query@11.0.0-rc.700':
-    resolution: {integrity: sha512-/8tZ7PrfVFOKHjtekSCE0smJLO6v2xxuaXbnSDV7saCoJXIID/+olt3YbwvhAzEzFCaWF9UUuigULW4MIr9Hvw==}
+  '@trpc/react-query@11.0.0-rc.708':
+    resolution: {integrity: sha512-BABq2D780WJo8p2mhV+Bhnqn7ioOc5tq3Ilg8laimdWEVETeijKM/aSdWcHR10UKDbhYt2jO8pjFbOHbUemIdg==}
     peerDependencies:
       '@tanstack/react-query': ^5.62.8
-      '@trpc/client': 11.0.0-rc.700+e5c0c1a82
-      '@trpc/server': 11.0.0-rc.700+e5c0c1a82
+      '@trpc/client': 11.0.0-rc.708+209e9ad21
+      '@trpc/server': 11.0.0-rc.708+209e9ad21
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
-      typescript: '>=5.7.2'
-
-  '@trpc/server@11.0.0-rc.700':
-    resolution: {integrity: sha512-EmbaGj76YcZWsnujZrrJEYa/2a6ZncTMm1he99RlemWE/ZsZbN+I+KCz+VKIsUr+JLaQmQMElcXs2x0qLI6T5g==}
-    peerDependencies:
       typescript: '>=5.7.2'
 
   '@trpc/server@11.0.0-rc.708':
@@ -2833,6 +1797,11 @@ packages:
   resolve@1.22.10:
     resolution: {integrity: sha512-NPRy+/ncIMeDlTAsuqwKIiferiawhefFJtkNSW0qZJEqMEb+qBt/77B/jGeeek+F0uOeN05CDa6HXbbIgtVX4w==}
     engines: {node: '>= 0.4'}
+    hasBin: true
+
+  rimraf@6.0.1:
+    resolution: {integrity: sha512-9dkvaxAsk/xNXSJzMgFqqMCuFgt2+KsOFek3TMLfo8NCPfWpBmqwyNn5Y+NX56QUYfCtsyhF3ayiboEoUmJk/A==}
+    engines: {node: 20 || >=22}
     hasBin: true
 
   rollup@4.30.1:
@@ -3718,43 +2687,25 @@ snapshots:
     dependencies:
       '@swc/counter': 0.1.3
 
-  '@tanstack/query-core@5.64.1': {}
+  '@tanstack/query-core@5.64.2': {}
 
-  '@tanstack/react-query@5.64.1(react@18.3.1)':
+  '@tanstack/react-query@5.64.2(react@18.3.1)':
     dependencies:
-      '@tanstack/query-core': 5.64.1
+      '@tanstack/query-core': 5.64.2
       react: 18.3.1
 
-  '@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(typescript@5.7.3)':
-    dependencies:
-      '@trpc/server': 11.0.0-rc.700(typescript@5.7.3)
-      typescript: 5.7.3
-
-  '@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)':
+  '@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)':
     dependencies:
       '@trpc/server': 11.0.0-rc.708(typescript@5.7.3)
       typescript: 5.7.3
 
-  '@trpc/react-query@11.0.0-rc.700(@tanstack/react-query@5.64.1(react@18.3.1))(@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
+  '@trpc/react-query@11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
     dependencies:
-      '@tanstack/react-query': 5.64.1(react@18.3.1)
-      '@trpc/client': 11.0.0-rc.700(@trpc/server@11.0.0-rc.700(typescript@5.7.3))(typescript@5.7.3)
-      '@trpc/server': 11.0.0-rc.700(typescript@5.7.3)
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      typescript: 5.7.3
-
-  '@trpc/react-query@11.0.0-rc.700(@tanstack/react-query@5.64.1(react@18.3.1))(@trpc/client@11.0.0-rc.700(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
-    dependencies:
-      '@tanstack/react-query': 5.64.1(react@18.3.1)
-      '@trpc/client': 11.0.0-rc.700(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
+      '@tanstack/react-query': 5.64.2(react@18.3.1)
+      '@trpc/client': 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/server': 11.0.0-rc.708(typescript@5.7.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
-      typescript: 5.7.3
-
-  '@trpc/server@11.0.0-rc.700(typescript@5.7.3)':
-    dependencies:
       typescript: 5.7.3
 
   '@trpc/server@11.0.0-rc.708(typescript@5.7.3)':
@@ -4724,6 +3675,11 @@ snapshots:
       is-core-module: 2.16.1
       path-parse: 1.0.7
       supports-preserve-symlinks-flag: 1.0.0
+
+  rimraf@6.0.1:
+    dependencies:
+      glob: 11.0.1
+      package-json-from-dist: 1.0.1
 
   rollup@4.30.1:
     dependencies:

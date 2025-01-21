@@ -10,7 +10,7 @@ const apiPkgDir = path.join(__dirname, '../packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
-const NUM_ROUTERS = 50
+const NUM_ROUTERS = 3
 
 const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
@@ -49,7 +49,7 @@ function createRouterPackage(routerName: string) {
 
 const routerPackages: string[] = []
 for (let i = 1; i <= NUM_ROUTERS; i++) {
-  const routerName = `router${i}`
+  const routerName = `router${String(i).padStart(2, '0')}`
   routerPackages.push(routerName)
   createRouterPackage(routerName)
 }
@@ -57,7 +57,7 @@ for (let i = 1; i <= NUM_ROUTERS; i++) {
 // Remove all folders in generated-routers that isn't in routerPackages
 const generatedRouters = fs.readdirSync(PACKAGES_DIR)
 for (const router of generatedRouters) {
-  if (!routerPackages.includes(router)) {
+  if (!router.startsWith('.') && !routerPackages.includes(router)) {
     fs.rmdirSync(path.join(PACKAGES_DIR, router), { recursive: true })
   }
 }
