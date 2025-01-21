@@ -57,7 +57,7 @@ for (let i = 1; i <= NUM_ROUTERS; i++) {
 // Remove all folders in generated-routers that isn't in routerPackages
 const generatedRouters = fs.readdirSync(PACKAGES_DIR)
 for (const router of generatedRouters) {
-  if (!routerPackages.includes(router)) {
+  if (!routerPackages.includes(router) && !router.startsWith('.')) {
     fs.rmdirSync(path.join(PACKAGES_DIR, router), { recursive: true })
   }
 }
