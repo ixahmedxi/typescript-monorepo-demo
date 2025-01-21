@@ -1,4 +1,3 @@
-import { execSync } from 'child_process'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -99,13 +98,12 @@ fs.writeFileSync(
   JSON.stringify(apiPackageJson, null, 2) + '\n',
 )
 
-try {
-  execSync(`pnpm install --ignore-scripts`, {
-    stdio: 'inherit',
-  })
-} catch {
-  // continue
-}
-console.log('Done!')
-
-process.exit(0)
+// Stalls the process smh
+// try {
+//   execSync(`pnpm install --ignore-scripts`, {
+//     stdio: 'inherit',
+//   })
+// } catch {
+//   // continue
+// }
+// console.log('Done!')
