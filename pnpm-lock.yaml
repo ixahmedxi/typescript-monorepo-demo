@@ -60,14 +60,14 @@ importers:
         specifier: latest
         version: 5.64.2(react@18.3.1)
       '@trpc/client':
-        specifier: next
-        version: 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
-        specifier: next
-        version: 11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -100,8 +100,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/trpc
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -119,8 +119,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/trpc
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -138,8 +138,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/trpc
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -166,14 +166,14 @@ importers:
         specifier: workspace:*
         version: link:../trpc
       '@trpc/client':
-        specifier: next
-        version: 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3)
       '@trpc/react-query':
-        specifier: next
-        version: 11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -188,8 +188,8 @@ importers:
   packages/trpc:
     dependencies:
       '@trpc/server':
-        specifier: next
-        version: 11.0.0-rc.708(typescript@5.7.3)
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -957,24 +957,24 @@ packages:
     peerDependencies:
       react: ^18 || ^19
 
-  '@trpc/client@11.0.0-rc.708':
-    resolution: {integrity: sha512-8bVmfzvr62yIBuxmEJyQyDqEcK3SNfq0WWAwFhOAetdOk8EvmlC2JTbE8t3ug3HQ+xZmu/43tiOOFGa/O3FTrQ==}
+  '@trpc/client@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739':
+    resolution: {integrity: sha512-B88ma6FaW9PCKi3Gc4cT0Cf2rCPx7zenz70qdtg1UITQ3E275UBN5B2ugbcDAcu5NP+ohgKL+1GwK2Qlb/0/Uw==}
     peerDependencies:
-      '@trpc/server': 11.0.0-rc.708+209e9ad21
+      '@trpc/server': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739+b648648f8
       typescript: '>=5.7.2'
 
-  '@trpc/react-query@11.0.0-rc.708':
-    resolution: {integrity: sha512-BABq2D780WJo8p2mhV+Bhnqn7ioOc5tq3Ilg8laimdWEVETeijKM/aSdWcHR10UKDbhYt2jO8pjFbOHbUemIdg==}
+  '@trpc/react-query@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739':
+    resolution: {integrity: sha512-xZzwm/1u7a4gh0ZQeCYeNBYrdGt1etdnQirMlyduDeSJxTxMnJaXkDnWAj3gtOsVDS+xcYbJmMgP5Va/5hIxxA==}
     peerDependencies:
       '@tanstack/react-query': ^5.62.8
-      '@trpc/client': 11.0.0-rc.708+209e9ad21
-      '@trpc/server': 11.0.0-rc.708+209e9ad21
+      '@trpc/client': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739+b648648f8
+      '@trpc/server': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739+b648648f8
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
       typescript: '>=5.7.2'
 
-  '@trpc/server@11.0.0-rc.708':
-    resolution: {integrity: sha512-LIq0PRf/6ZTz7gQEgiYKGbyf7H9Xz4nWwuT8Lkk1fw94F5GQgiq3SywFBTE45Tpq22FmssQz0fHEdwsG6GJCzQ==}
+  '@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739':
+    resolution: {integrity: sha512-aoKnQerIPoe0hWqMcg4ldpl/cAMZnr/EQip2PqlkNSSFcuyoVoHcusHV/RVlPw0YRD+jbMDXAXVyFxNxUobK7w==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -2700,21 +2700,21 @@ snapshots:
       '@tanstack/query-core': 5.64.2
       react: 18.3.1
 
-  '@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)':
+  '@trpc/client@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3)':
     dependencies:
-      '@trpc/server': 11.0.0-rc.708(typescript@5.7.3)
+      '@trpc/server': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       typescript: 5.7.3
 
-  '@trpc/react-query@11.0.0-rc.708(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
+  '@trpc/react-query@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@tanstack/react-query@5.64.2(react@18.3.1))(@trpc/client@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3))(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.3)':
     dependencies:
       '@tanstack/react-query': 5.64.2(react@18.3.1)
-      '@trpc/client': 11.0.0-rc.708(@trpc/server@11.0.0-rc.708(typescript@5.7.3))(typescript@5.7.3)
-      '@trpc/server': 11.0.0-rc.708(typescript@5.7.3)
+      '@trpc/client': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3))(typescript@5.7.3)
+      '@trpc/server': 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       typescript: 5.7.3
 
-  '@trpc/server@11.0.0-rc.708(typescript@5.7.3)':
+  '@trpc/server@11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)':
     dependencies:
       typescript: 5.7.3
 

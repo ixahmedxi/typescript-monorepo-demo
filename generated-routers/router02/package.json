@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@org/trpc": "workspace:*",
-    "@trpc/server": "next",
+    "@trpc/server": "tmp",
     "superjson": "^2.2.1",
     "zod": "^3.23.8"
   },
