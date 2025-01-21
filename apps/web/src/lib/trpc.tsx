@@ -10,6 +10,7 @@ import superjson from 'superjson'
 import { AppRouter } from '@org/api'
 
 export const trpcReact = createTRPCReact<AppRouter>()
+trpcReact.router01
 
 function getBaseUrl() {
   if (typeof window !== 'undefined') {
