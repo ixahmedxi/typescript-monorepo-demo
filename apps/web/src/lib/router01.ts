@@ -32,10 +32,7 @@ export type Router01Inputs = inferRouterInputs<Router01Router>
 export type Router01Outputs = inferRouterOutputs<Router01Router>
 
 export const useRouter01Utils = (): Omit<
-  ReturnType<
-    // @ts-expect-error - this is a template file
-    Router01Types['useUtils']
-  >,
+  ReturnType<Router01Types['useUtils']>,
   'client'
 > => {
   // biome-ignore lint/suspicious/noExplicitAny: generated

@@ -1,7 +1,7 @@
-import { trpcReact } from '@org/api/react'
+import { trpcReact } from './lib/trpc'
 
 export function App() {
-  const { data } = trpcReact.router1.foo.useQuery()
+  const { data } = trpcReact.router01.foo.useQuery()
 
   if (data === 'bar') {
   }
