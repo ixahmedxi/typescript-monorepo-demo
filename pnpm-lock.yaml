@@ -62,6 +62,297 @@ importers:
       '@org/router003':
         specifier: workspace:*
         version: link:../../generated-routers/router003
+      '@org/router004':
+        specifier: workspace:*
+        version: link:../../generated-routers/router004
+      '@org/router005':
+        specifier: workspace:*
+        version: link:../../generated-routers/router005
+      '@org/router006':
+        specifier: workspace:*
+        version: link:../../generated-routers/router006
+      '@org/router007':
+        specifier: workspace:*
+        version: link:../../generated-routers/router007
+      '@org/router008':
+        specifier: workspace:*
+        version: link:../../generated-routers/router008
+      '@org/router009':
+        specifier: workspace:*
+        version: link:../../generated-routers/router009
+      '@org/router010':
+        specifier: workspace:*
+        version: link:../../generated-routers/router010
+      '@org/router011':
+        specifier: workspace:*
+        version: link:../../generated-routers/router011
+      '@org/router012':
+        specifier: workspace:*
+        version: link:../../generated-routers/router012
+      '@org/router013':
+        specifier: workspace:*
+        version: link:../../generated-routers/router013
+      '@org/router014':
+        specifier: workspace:*
+        version: link:../../generated-routers/router014
+      '@org/router015':
+        specifier: workspace:*
+        version: link:../../generated-routers/router015
+      '@org/router016':
+        specifier: workspace:*
+        version: link:../../generated-routers/router016
+      '@org/router017':
+        specifier: workspace:*
+        version: link:../../generated-routers/router017
+      '@org/router018':
+        specifier: workspace:*
+        version: link:../../generated-routers/router018
+      '@org/router019':
+        specifier: workspace:*
+        version: link:../../generated-routers/router019
+      '@org/router020':
+        specifier: workspace:*
+        version: link:../../generated-routers/router020
+      '@org/router021':
+        specifier: workspace:*
+        version: link:../../generated-routers/router021
+      '@org/router022':
+        specifier: workspace:*
+        version: link:../../generated-routers/router022
+      '@org/router023':
+        specifier: workspace:*
+        version: link:../../generated-routers/router023
+      '@org/router024':
+        specifier: workspace:*
+        version: link:../../generated-routers/router024
+      '@org/router025':
+        specifier: workspace:*
+        version: link:../../generated-routers/router025
+      '@org/router026':
+        specifier: workspace:*
+        version: link:../../generated-routers/router026
+      '@org/router027':
+        specifier: workspace:*
+        version: link:../../generated-routers/router027
+      '@org/router028':
+        specifier: workspace:*
+        version: link:../../generated-routers/router028
+      '@org/router029':
+        specifier: workspace:*
+        version: link:../../generated-routers/router029
+      '@org/router030':
+        specifier: workspace:*
+        version: link:../../generated-routers/router030
+      '@org/router031':
+        specifier: workspace:*
+        version: link:../../generated-routers/router031
+      '@org/router032':
+        specifier: workspace:*
+        version: link:../../generated-routers/router032
+      '@org/router033':
+        specifier: workspace:*
+        version: link:../../generated-routers/router033
+      '@org/router034':
+        specifier: workspace:*
+        version: link:../../generated-routers/router034
+      '@org/router035':
+        specifier: workspace:*
+        version: link:../../generated-routers/router035
+      '@org/router036':
+        specifier: workspace:*
+        version: link:../../generated-routers/router036
+      '@org/router037':
+        specifier: workspace:*
+        version: link:../../generated-routers/router037
+      '@org/router038':
+        specifier: workspace:*
+        version: link:../../generated-routers/router038
+      '@org/router039':
+        specifier: workspace:*
+        version: link:../../generated-routers/router039
+      '@org/router040':
+        specifier: workspace:*
+        version: link:../../generated-routers/router040
+      '@org/router041':
+        specifier: workspace:*
+        version: link:../../generated-routers/router041
+      '@org/router042':
+        specifier: workspace:*
+        version: link:../../generated-routers/router042
+      '@org/router043':
+        specifier: workspace:*
+        version: link:../../generated-routers/router043
+      '@org/router044':
+        specifier: workspace:*
+        version: link:../../generated-routers/router044
+      '@org/router045':
+        specifier: workspace:*
+        version: link:../../generated-routers/router045
+      '@org/router046':
+        specifier: workspace:*
+        version: link:../../generated-routers/router046
+      '@org/router047':
+        specifier: workspace:*
+        version: link:../../generated-routers/router047
+      '@org/router048':
+        specifier: workspace:*
+        version: link:../../generated-routers/router048
+      '@org/router049':
+        specifier: workspace:*
+        version: link:../../generated-routers/router049
+      '@org/router050':
+        specifier: workspace:*
+        version: link:../../generated-routers/router050
+      '@org/router051':
+        specifier: workspace:*
+        version: link:../../generated-routers/router051
+      '@org/router052':
+        specifier: workspace:*
+        version: link:../../generated-routers/router052
+      '@org/router053':
+        specifier: workspace:*
+        version: link:../../generated-routers/router053
+      '@org/router054':
+        specifier: workspace:*
+        version: link:../../generated-routers/router054
+      '@org/router055':
+        specifier: workspace:*
+        version: link:../../generated-routers/router055
+      '@org/router056':
+        specifier: workspace:*
+        version: link:../../generated-routers/router056
+      '@org/router057':
+        specifier: workspace:*
+        version: link:../../generated-routers/router057
+      '@org/router058':
+        specifier: workspace:*
+        version: link:../../generated-routers/router058
+      '@org/router059':
+        specifier: workspace:*
+        version: link:../../generated-routers/router059
+      '@org/router060':
+        specifier: workspace:*
+        version: link:../../generated-routers/router060
+      '@org/router061':
+        specifier: workspace:*
+        version: link:../../generated-routers/router061
+      '@org/router062':
+        specifier: workspace:*
+        version: link:../../generated-routers/router062
+      '@org/router063':
+        specifier: workspace:*
+        version: link:../../generated-routers/router063
+      '@org/router064':
+        specifier: workspace:*
+        version: link:../../generated-routers/router064
+      '@org/router065':
+        specifier: workspace:*
+        version: link:../../generated-routers/router065
+      '@org/router066':
+        specifier: workspace:*
+        version: link:../../generated-routers/router066
+      '@org/router067':
+        specifier: workspace:*
+        version: link:../../generated-routers/router067
+      '@org/router068':
+        specifier: workspace:*
+        version: link:../../generated-routers/router068
+      '@org/router069':
+        specifier: workspace:*
+        version: link:../../generated-routers/router069
+      '@org/router070':
+        specifier: workspace:*
+        version: link:../../generated-routers/router070
+      '@org/router071':
+        specifier: workspace:*
+        version: link:../../generated-routers/router071
+      '@org/router072':
+        specifier: workspace:*
+        version: link:../../generated-routers/router072
+      '@org/router073':
+        specifier: workspace:*
+        version: link:../../generated-routers/router073
+      '@org/router074':
+        specifier: workspace:*
+        version: link:../../generated-routers/router074
+      '@org/router075':
+        specifier: workspace:*
+        version: link:../../generated-routers/router075
+      '@org/router076':
+        specifier: workspace:*
+        version: link:../../generated-routers/router076
+      '@org/router077':
+        specifier: workspace:*
+        version: link:../../generated-routers/router077
+      '@org/router078':
+        specifier: workspace:*
+        version: link:../../generated-routers/router078
+      '@org/router079':
+        specifier: workspace:*
+        version: link:../../generated-routers/router079
+      '@org/router080':
+        specifier: workspace:*
+        version: link:../../generated-routers/router080
+      '@org/router081':
+        specifier: workspace:*
+        version: link:../../generated-routers/router081
+      '@org/router082':
+        specifier: workspace:*
+        version: link:../../generated-routers/router082
+      '@org/router083':
+        specifier: workspace:*
+        version: link:../../generated-routers/router083
+      '@org/router084':
+        specifier: workspace:*
+        version: link:../../generated-routers/router084
+      '@org/router085':
+        specifier: workspace:*
+        version: link:../../generated-routers/router085
+      '@org/router086':
+        specifier: workspace:*
+        version: link:../../generated-routers/router086
+      '@org/router087':
+        specifier: workspace:*
+        version: link:../../generated-routers/router087
+      '@org/router088':
+        specifier: workspace:*
+        version: link:../../generated-routers/router088
+      '@org/router089':
+        specifier: workspace:*
+        version: link:../../generated-routers/router089
+      '@org/router090':
+        specifier: workspace:*
+        version: link:../../generated-routers/router090
+      '@org/router091':
+        specifier: workspace:*
+        version: link:../../generated-routers/router091
+      '@org/router092':
+        specifier: workspace:*
+        version: link:../../generated-routers/router092
+      '@org/router093':
+        specifier: workspace:*
+        version: link:../../generated-routers/router093
+      '@org/router094':
+        specifier: workspace:*
+        version: link:../../generated-routers/router094
+      '@org/router095':
+        specifier: workspace:*
+        version: link:../../generated-routers/router095
+      '@org/router096':
+        specifier: workspace:*
+        version: link:../../generated-routers/router096
+      '@org/router097':
+        specifier: workspace:*
+        version: link:../../generated-routers/router097
+      '@org/router098':
+        specifier: workspace:*
+        version: link:../../generated-routers/router098
+      '@org/router099':
+        specifier: workspace:*
+        version: link:../../generated-routers/router099
+      '@org/router100':
+        specifier: workspace:*
+        version: link:../../generated-routers/router100
       '@tanstack/react-query':
         specifier: latest
         version: 5.64.2(react@18.3.1)
@@ -157,6 +448,1849 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
+  generated-routers/router004:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router005:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router006:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router007:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router008:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router009:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router010:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router011:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router012:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router013:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router014:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router015:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router016:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router017:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router018:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router019:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router020:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router021:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router022:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router023:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router024:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router025:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router026:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router027:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router028:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router029:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router030:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router031:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router032:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router033:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router034:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router035:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router036:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router037:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router038:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router039:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router040:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router041:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router042:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router043:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router044:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router045:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router046:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router047:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router048:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router049:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router050:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router051:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router052:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router053:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router054:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router055:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router056:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router057:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router058:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router059:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router060:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router061:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router062:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router063:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router064:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router065:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router066:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router067:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router068:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router069:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router070:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router071:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router072:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router073:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router074:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router075:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router076:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router077:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router078:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router079:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router080:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router081:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router082:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router083:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router084:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router085:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router086:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router087:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router088:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router089:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router090:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router091:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router092:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router093:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router094:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router095:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router096:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router097:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router098:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router099:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
+  generated-routers/router100:
+    dependencies:
+      '@org/trpc':
+        specifier: workspace:*
+        version: link:../../packages/trpc
+      '@trpc/server':
+        specifier: tmp
+        version: 11.0.0-alpha-tmp-01-21-trpc-monorepo-prebuilt.739(typescript@5.7.3)
+      superjson:
+        specifier: ^2.2.1
+        version: 2.2.2
+      zod:
+        specifier: ^3.23.8
+        version: 3.24.1
+    devDependencies:
+      '@org/tsconfig':
+        specifier: workspace:*
+        version: link:../../tooling/tsconfig
+
   packages/api:
     dependencies:
       '@org/router001':
@@ -168,6 +2302,297 @@ importers:
       '@org/router003':
         specifier: workspace:*
         version: link:../../generated-routers/router003
+      '@org/router004':
+        specifier: workspace:*
+        version: link:../../generated-routers/router004
+      '@org/router005':
+        specifier: workspace:*
+        version: link:../../generated-routers/router005
+      '@org/router006':
+        specifier: workspace:*
+        version: link:../../generated-routers/router006
+      '@org/router007':
+        specifier: workspace:*
+        version: link:../../generated-routers/router007
+      '@org/router008':
+        specifier: workspace:*
+        version: link:../../generated-routers/router008
+      '@org/router009':
+        specifier: workspace:*
+        version: link:../../generated-routers/router009
+      '@org/router010':
+        specifier: workspace:*
+        version: link:../../generated-routers/router010
+      '@org/router011':
+        specifier: workspace:*
+        version: link:../../generated-routers/router011
+      '@org/router012':
+        specifier: workspace:*
+        version: link:../../generated-routers/router012
+      '@org/router013':
+        specifier: workspace:*
+        version: link:../../generated-routers/router013
+      '@org/router014':
+        specifier: workspace:*
+        version: link:../../generated-routers/router014
+      '@org/router015':
+        specifier: workspace:*
+        version: link:../../generated-routers/router015
+      '@org/router016':
+        specifier: workspace:*
+        version: link:../../generated-routers/router016
+      '@org/router017':
+        specifier: workspace:*
+        version: link:../../generated-routers/router017
+      '@org/router018':
+        specifier: workspace:*
+        version: link:../../generated-routers/router018
+      '@org/router019':
+        specifier: workspace:*
+        version: link:../../generated-routers/router019
+      '@org/router020':
+        specifier: workspace:*
+        version: link:../../generated-routers/router020
+      '@org/router021':
+        specifier: workspace:*
+        version: link:../../generated-routers/router021
+      '@org/router022':
+        specifier: workspace:*
+        version: link:../../generated-routers/router022
+      '@org/router023':
+        specifier: workspace:*
+        version: link:../../generated-routers/router023
+      '@org/router024':
+        specifier: workspace:*
+        version: link:../../generated-routers/router024
+      '@org/router025':
+        specifier: workspace:*
+        version: link:../../generated-routers/router025
+      '@org/router026':
+        specifier: workspace:*
+        version: link:../../generated-routers/router026
+      '@org/router027':
+        specifier: workspace:*
+        version: link:../../generated-routers/router027
+      '@org/router028':
+        specifier: workspace:*
+        version: link:../../generated-routers/router028
+      '@org/router029':
+        specifier: workspace:*
+        version: link:../../generated-routers/router029
+      '@org/router030':
+        specifier: workspace:*
+        version: link:../../generated-routers/router030
+      '@org/router031':
+        specifier: workspace:*
+        version: link:../../generated-routers/router031
+      '@org/router032':
+        specifier: workspace:*
+        version: link:../../generated-routers/router032
+      '@org/router033':
+        specifier: workspace:*
+        version: link:../../generated-routers/router033
+      '@org/router034':
+        specifier: workspace:*
+        version: link:../../generated-routers/router034
+      '@org/router035':
+        specifier: workspace:*
+        version: link:../../generated-routers/router035
+      '@org/router036':
+        specifier: workspace:*
+        version: link:../../generated-routers/router036
+      '@org/router037':
+        specifier: workspace:*
+        version: link:../../generated-routers/router037
+      '@org/router038':
+        specifier: workspace:*
+        version: link:../../generated-routers/router038
+      '@org/router039':
+        specifier: workspace:*
+        version: link:../../generated-routers/router039
+      '@org/router040':
+        specifier: workspace:*
+        version: link:../../generated-routers/router040
+      '@org/router041':
+        specifier: workspace:*
+        version: link:../../generated-routers/router041
+      '@org/router042':
+        specifier: workspace:*
+        version: link:../../generated-routers/router042
+      '@org/router043':
+        specifier: workspace:*
+        version: link:../../generated-routers/router043
+      '@org/router044':
+        specifier: workspace:*
+        version: link:../../generated-routers/router044
+      '@org/router045':
+        specifier: workspace:*
+        version: link:../../generated-routers/router045
+      '@org/router046':
+        specifier: workspace:*
+        version: link:../../generated-routers/router046
+      '@org/router047':
+        specifier: workspace:*
+        version: link:../../generated-routers/router047
+      '@org/router048':
+        specifier: workspace:*
+        version: link:../../generated-routers/router048
+      '@org/router049':
+        specifier: workspace:*
+        version: link:../../generated-routers/router049
+      '@org/router050':
+        specifier: workspace:*
+        version: link:../../generated-routers/router050
+      '@org/router051':
+        specifier: workspace:*
+        version: link:../../generated-routers/router051
+      '@org/router052':
+        specifier: workspace:*
+        version: link:../../generated-routers/router052
+      '@org/router053':
+        specifier: workspace:*
+        version: link:../../generated-routers/router053
+      '@org/router054':
+        specifier: workspace:*
+        version: link:../../generated-routers/router054
+      '@org/router055':
+        specifier: workspace:*
+        version: link:../../generated-routers/router055
+      '@org/router056':
+        specifier: workspace:*
+        version: link:../../generated-routers/router056
+      '@org/router057':
+        specifier: workspace:*
+        version: link:../../generated-routers/router057
+      '@org/router058':
+        specifier: workspace:*
+        version: link:../../generated-routers/router058
+      '@org/router059':
+        specifier: workspace:*
+        version: link:../../generated-routers/router059
+      '@org/router060':
+        specifier: workspace:*
+        version: link:../../generated-routers/router060
+      '@org/router061':
+        specifier: workspace:*
+        version: link:../../generated-routers/router061
+      '@org/router062':
+        specifier: workspace:*
+        version: link:../../generated-routers/router062
+      '@org/router063':
+        specifier: workspace:*
+        version: link:../../generated-routers/router063
+      '@org/router064':
+        specifier: workspace:*
+        version: link:../../generated-routers/router064
+      '@org/router065':
+        specifier: workspace:*
+        version: link:../../generated-routers/router065
+      '@org/router066':
+        specifier: workspace:*
+        version: link:../../generated-routers/router066
+      '@org/router067':
+        specifier: workspace:*
+        version: link:../../generated-routers/router067
+      '@org/router068':
+        specifier: workspace:*
+        version: link:../../generated-routers/router068
+      '@org/router069':
+        specifier: workspace:*
+        version: link:../../generated-routers/router069
+      '@org/router070':
+        specifier: workspace:*
+        version: link:../../generated-routers/router070
+      '@org/router071':
+        specifier: workspace:*
+        version: link:../../generated-routers/router071
+      '@org/router072':
+        specifier: workspace:*
+        version: link:../../generated-routers/router072
+      '@org/router073':
+        specifier: workspace:*
+        version: link:../../generated-routers/router073
+      '@org/router074':
+        specifier: workspace:*
+        version: link:../../generated-routers/router074
+      '@org/router075':
+        specifier: workspace:*
+        version: link:../../generated-routers/router075
+      '@org/router076':
+        specifier: workspace:*
+        version: link:../../generated-routers/router076
+      '@org/router077':
+        specifier: workspace:*
+        version: link:../../generated-routers/router077
+      '@org/router078':
+        specifier: workspace:*
+        version: link:../../generated-routers/router078
+      '@org/router079':
+        specifier: workspace:*
+        version: link:../../generated-routers/router079
+      '@org/router080':
+        specifier: workspace:*
+        version: link:../../generated-routers/router080
+      '@org/router081':
+        specifier: workspace:*
+        version: link:../../generated-routers/router081
+      '@org/router082':
+        specifier: workspace:*
+        version: link:../../generated-routers/router082
+      '@org/router083':
+        specifier: workspace:*
+        version: link:../../generated-routers/router083
+      '@org/router084':
+        specifier: workspace:*
+        version: link:../../generated-routers/router084
+      '@org/router085':
+        specifier: workspace:*
+        version: link:../../generated-routers/router085
+      '@org/router086':
+        specifier: workspace:*
+        version: link:../../generated-routers/router086
+      '@org/router087':
+        specifier: workspace:*
+        version: link:../../generated-routers/router087
+      '@org/router088':
+        specifier: workspace:*
+        version: link:../../generated-routers/router088
+      '@org/router089':
+        specifier: workspace:*
+        version: link:../../generated-routers/router089
+      '@org/router090':
+        specifier: workspace:*
+        version: link:../../generated-routers/router090
+      '@org/router091':
+        specifier: workspace:*
+        version: link:../../generated-routers/router091
+      '@org/router092':
+        specifier: workspace:*
+        version: link:../../generated-routers/router092
+      '@org/router093':
+        specifier: workspace:*
+        version: link:../../generated-routers/router093
+      '@org/router094':
+        specifier: workspace:*
+        version: link:../../generated-routers/router094
+      '@org/router095':
+        specifier: workspace:*
+        version: link:../../generated-routers/router095
+      '@org/router096':
+        specifier: workspace:*
+        version: link:../../generated-routers/router096
+      '@org/router097':
+        specifier: workspace:*
+        version: link:../../generated-routers/router097
+      '@org/router098':
+        specifier: workspace:*
+        version: link:../../generated-routers/router098
+      '@org/router099':
+        specifier: workspace:*
+        version: link:../../generated-routers/router099
+      '@org/router100':
+        specifier: workspace:*
+        version: link:../../generated-routers/router100
       '@org/trpc':
         specifier: workspace:*
         version: link:../trpc

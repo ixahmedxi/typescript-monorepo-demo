@@ -7,8 +7,15 @@
       "inputs": ["./scripts/**/*"],
       "outputs": ["generated-routers/**", "packages/api/package.json"]
     },
+    "codegen-clients": {
+      "dependsOn": ["//#root:codegen"],
+      "cache": true,
+      "persistent": false,
+      "inputs": ["./scripts/**/*"],
+      "outputs": ["src/generated-trpc-clients/**"]
+    },
     "build": {
-      "dependsOn": ["^build", "//#root:codegen"],
+      "dependsOn": ["^build", "//#root:codegen", "codegen-clients"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [
         ".next/**",

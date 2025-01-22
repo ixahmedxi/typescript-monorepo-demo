@@ -1,4 +1,4 @@
-import { router001Api } from './lib/router001'
+import { router001Api } from './generated-trpc-client/router001'
 import { trpcReact } from './lib/trpc'
 
 export function App() {
