@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "turbo build",
-    "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist **/node_module generated-routers",
+    "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist generated-routers && pnpm codegen",
     "codegen": "turbo run root:codegen",
     "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
