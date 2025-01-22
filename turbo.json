@@ -5,7 +5,7 @@
       "cache": true,
       "persistent": false,
       "inputs": ["./scripts/**/*"],
-      "outputs": ["generated-routers/**"]
+      "outputs": ["generated-routers/**", "packages/api/package.json"]
     },
     "build": {
       "dependsOn": ["^build", "//#root:codegen"],

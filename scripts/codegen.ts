@@ -5,7 +5,8 @@ import { fileURLToPath } from 'url'
 // Get the equivalent of __dirname for ES modules
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
-const apiPkgDir = path.join(__dirname, '../packages/api')
+const rootDir = path.join(__dirname, '..')
+const apiPkgDir = path.join(rootDir, 'packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
@@ -17,13 +18,22 @@ if (!fs.existsSync(PACKAGES_DIR)) {
 }
 
 // read template files
-const codegenBase = fs.readFileSync(__dirname + '/codegen-base.ts', 'utf-8')
+const codegenBase = fs.readFileSync(
+  path.join(__dirname, '/codegen-base.ts'),
+  'utf-8',
+)
 const packageJson = fs.readFileSync(
-  __dirname + '/codegen-package.json',
+  path.join(__dirname, '/codegen-package.json'),
   'utf-8',
 )
 
-function createRouterPackage(routerName: string) {
+const routerPackages: Set<string> = new Set(
+  Array.from(
+    { length: NUM_ROUTERS },
+    (_, i) => `router${String(i + 1).padStart(3, '0')}`,
+  ),
+)
+for (const routerName of routerPackages) {
   const packageDir = path.join(PACKAGES_DIR, routerName)
 
   const srcDir = path.join(packageDir, 'src')
@@ -46,17 +56,10 @@ function createRouterPackage(routerName: string) {
   )
 }
 
-const routerPackages: string[] = []
-for (let i = 1; i <= NUM_ROUTERS; i++) {
-  const routerName = `router${String(i).padStart(3, '0')}`
-  routerPackages.push(routerName)
-  createRouterPackage(routerName)
-}
-
 // Remove all folders in generated-routers that isn't in routerPackages
 const generatedRouters = fs.readdirSync(PACKAGES_DIR)
 for (const router of generatedRouters) {
-  if (!router.startsWith('.') && !routerPackages.includes(router)) {
+  if (!router.startsWith('.') && !routerPackages.has(router)) {
     fs.rmdirSync(path.join(PACKAGES_DIR, router), { recursive: true })
   }
 }
@@ -65,10 +68,10 @@ for (const router of generatedRouters) {
 const rootIndexFile = `
 import { router } from '@org/trpc';
 
-${routerPackages.map((name) => `import { ${name} } from '@org/${name}';`).join('\n')}
+${[...routerPackages].map((name) => `import { ${name} } from '@org/${name}';`).join('\n')}
 
 export const appRouter = router({
-  ${routerPackages.join(',\n  ')}
+  ${[...routerPackages].join(',\n  ')}
 });
 
 export type AppRouter = typeof appRouter;
@@ -77,38 +80,26 @@ export type AppRouter = typeof appRouter;
 fs.writeFileSync(path.join(apiPkgDir, 'src/index.ts'), rootIndexFile)
 
 // Add generated router packages as dependencies to api package.json
-function updateApiPackageJsonDependencies(pkgDir: string) {
-  const apiPackageJsonPath = path.join(pkgDir, 'package.json')
-  const apiPackageJson = JSON.parse(
-    fs.readFileSync(apiPackageJsonPath, 'utf-8'),
-  )
+const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
+const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
 
-  // Remove any existing @org/router dependencies
-  for (const dep in apiPackageJson.dependencies) {
-    if (dep.startsWith('@org/router')) {
-      delete apiPackageJson.dependencies[dep]
-    }
+// Remove any existing @org/router dependencies
+for (const dep in apiPackageJson.dependencies) {
+  if (dep.startsWith('@org/router')) {
+    delete apiPackageJson.dependencies[dep]
   }
-
-  // Add each router package as a dependency
-  for (const routerName of routerPackages) {
-    apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
-  }
-
-  // Write updated package.json
-  fs.writeFileSync(
-    apiPackageJsonPath,
-    JSON.stringify(
-      {
-        extends: ['@org/tsconfig/base.json'],
-      },
-      null,
-      2,
-    ) + '\n',
-  )
 }
 
-updateApiPackageJsonDependencies(apiPkgDir)
+// Add each router package as a dependency
+for (const routerName of routerPackages) {
+  apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
+}
+
+// Write updated package.json
+fs.writeFileSync(
+  apiPackageJsonPath,
+  JSON.stringify(apiPackageJson, null, 2) + '\n',
+)
 
 // Stalls the process smh
 // try {
