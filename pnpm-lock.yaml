@@ -53,9 +53,9 @@ importers:
       '@org/api':
         specifier: workspace:*
         version: link:../../packages/api
-      '@org/router0001':
+      '@org/router001':
         specifier: workspace:*
-        version: link:../../generated-routers/router0001
+        version: link:../../generated-routers/router001
       '@tanstack/react-query':
         specifier: latest
         version: 5.64.2(react@18.3.1)
@@ -94,7 +94,7 @@ importers:
         specifier: ^5.4.8
         version: 5.4.11(@types/node@20.12.14)
 
-  generated-routers/router0001:
+  generated-routers/router001:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -113,7 +113,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0002:
+  generated-routers/router002:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -132,7 +132,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0003:
+  generated-routers/router003:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -151,7 +151,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0004:
+  generated-routers/router004:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -170,7 +170,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0005:
+  generated-routers/router005:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -189,7 +189,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0006:
+  generated-routers/router006:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -208,7 +208,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0007:
+  generated-routers/router007:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -227,7 +227,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0008:
+  generated-routers/router008:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -246,7 +246,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0009:
+  generated-routers/router009:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -265,7 +265,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0010:
+  generated-routers/router010:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -284,7 +284,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0011:
+  generated-routers/router011:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -303,7 +303,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0012:
+  generated-routers/router012:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -322,7 +322,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0013:
+  generated-routers/router013:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -341,7 +341,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0014:
+  generated-routers/router014:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -360,7 +360,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0015:
+  generated-routers/router015:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -379,7 +379,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0016:
+  generated-routers/router016:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -398,7 +398,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0017:
+  generated-routers/router017:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -417,7 +417,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0018:
+  generated-routers/router018:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -436,7 +436,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0019:
+  generated-routers/router019:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -455,7 +455,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0020:
+  generated-routers/router020:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -474,7 +474,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0021:
+  generated-routers/router021:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -493,7 +493,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0022:
+  generated-routers/router022:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -512,7 +512,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0023:
+  generated-routers/router023:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -531,7 +531,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0024:
+  generated-routers/router024:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -550,7 +550,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0025:
+  generated-routers/router025:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -569,7 +569,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0026:
+  generated-routers/router026:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -588,7 +588,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0027:
+  generated-routers/router027:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -607,7 +607,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0028:
+  generated-routers/router028:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -626,7 +626,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0029:
+  generated-routers/router029:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -645,7 +645,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0030:
+  generated-routers/router030:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -664,7 +664,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0031:
+  generated-routers/router031:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -683,7 +683,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0032:
+  generated-routers/router032:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -702,7 +702,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0033:
+  generated-routers/router033:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -721,7 +721,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0034:
+  generated-routers/router034:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -740,7 +740,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0035:
+  generated-routers/router035:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -759,7 +759,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0036:
+  generated-routers/router036:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -778,7 +778,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0037:
+  generated-routers/router037:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -797,7 +797,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0038:
+  generated-routers/router038:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -816,7 +816,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0039:
+  generated-routers/router039:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -835,7 +835,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0040:
+  generated-routers/router040:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -854,7 +854,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0041:
+  generated-routers/router041:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -873,7 +873,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0042:
+  generated-routers/router042:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -892,7 +892,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0043:
+  generated-routers/router043:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -911,7 +911,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0044:
+  generated-routers/router044:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -930,7 +930,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0045:
+  generated-routers/router045:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -949,7 +949,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0046:
+  generated-routers/router046:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -968,7 +968,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0047:
+  generated-routers/router047:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -987,7 +987,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0048:
+  generated-routers/router048:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1006,7 +1006,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0049:
+  generated-routers/router049:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1025,7 +1025,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0050:
+  generated-routers/router050:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1044,7 +1044,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0051:
+  generated-routers/router051:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1063,7 +1063,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0052:
+  generated-routers/router052:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1082,7 +1082,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0053:
+  generated-routers/router053:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1101,7 +1101,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0054:
+  generated-routers/router054:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1120,7 +1120,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0055:
+  generated-routers/router055:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1139,7 +1139,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0056:
+  generated-routers/router056:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1158,7 +1158,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0057:
+  generated-routers/router057:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1177,7 +1177,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0058:
+  generated-routers/router058:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1196,7 +1196,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0059:
+  generated-routers/router059:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1215,7 +1215,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0060:
+  generated-routers/router060:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1234,7 +1234,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0061:
+  generated-routers/router061:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1253,7 +1253,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0062:
+  generated-routers/router062:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1272,7 +1272,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0063:
+  generated-routers/router063:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1291,7 +1291,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0064:
+  generated-routers/router064:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1310,7 +1310,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0065:
+  generated-routers/router065:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1329,7 +1329,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0066:
+  generated-routers/router066:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1348,7 +1348,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0067:
+  generated-routers/router067:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1367,7 +1367,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0068:
+  generated-routers/router068:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1386,7 +1386,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0069:
+  generated-routers/router069:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1405,7 +1405,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0070:
+  generated-routers/router070:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1424,7 +1424,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0071:
+  generated-routers/router071:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1443,7 +1443,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0072:
+  generated-routers/router072:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1462,7 +1462,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0073:
+  generated-routers/router073:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1481,7 +1481,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0074:
+  generated-routers/router074:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1500,7 +1500,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0075:
+  generated-routers/router075:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1519,7 +1519,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0076:
+  generated-routers/router076:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1538,7 +1538,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0077:
+  generated-routers/router077:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1557,7 +1557,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0078:
+  generated-routers/router078:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1576,7 +1576,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0079:
+  generated-routers/router079:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1595,7 +1595,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0080:
+  generated-routers/router080:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1614,7 +1614,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0081:
+  generated-routers/router081:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1633,7 +1633,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0082:
+  generated-routers/router082:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1652,7 +1652,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0083:
+  generated-routers/router083:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1671,7 +1671,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0084:
+  generated-routers/router084:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1690,7 +1690,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0085:
+  generated-routers/router085:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1709,7 +1709,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0086:
+  generated-routers/router086:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1728,7 +1728,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0087:
+  generated-routers/router087:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1747,7 +1747,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0088:
+  generated-routers/router088:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1766,7 +1766,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0089:
+  generated-routers/router089:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1785,7 +1785,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0090:
+  generated-routers/router090:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1804,7 +1804,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0091:
+  generated-routers/router091:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1823,7 +1823,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0092:
+  generated-routers/router092:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1842,7 +1842,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0093:
+  generated-routers/router093:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1861,7 +1861,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0094:
+  generated-routers/router094:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1880,7 +1880,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0095:
+  generated-routers/router095:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1899,7 +1899,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0096:
+  generated-routers/router096:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1918,7 +1918,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0097:
+  generated-routers/router097:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1937,7 +1937,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0098:
+  generated-routers/router098:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1956,7 +1956,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0099:
+  generated-routers/router099:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1975,7 +1975,7 @@ importers:
         specifier: workspace:*
         version: link:../../tooling/tsconfig
 
-  generated-routers/router0100:
+  generated-routers/router100:
     dependencies:
       '@org/trpc':
         specifier: workspace:*
@@ -1996,306 +1996,306 @@ importers:
 
   packages/api:
     dependencies:
-      '@org/router0001':
+      '@org/router001':
         specifier: workspace:*
-        version: link:../../generated-routers/router0001
-      '@org/router0002':
+        version: link:../../generated-routers/router001
+      '@org/router002':
         specifier: workspace:*
-        version: link:../../generated-routers/router0002
-      '@org/router0003':
+        version: link:../../generated-routers/router002
+      '@org/router003':
         specifier: workspace:*
-        version: link:../../generated-routers/router0003
-      '@org/router0004':
+        version: link:../../generated-routers/router003
+      '@org/router004':
         specifier: workspace:*
-        version: link:../../generated-routers/router0004
-      '@org/router0005':
+        version: link:../../generated-routers/router004
+      '@org/router005':
         specifier: workspace:*
-        version: link:../../generated-routers/router0005
-      '@org/router0006':
+        version: link:../../generated-routers/router005
+      '@org/router006':
         specifier: workspace:*
-        version: link:../../generated-routers/router0006
-      '@org/router0007':
+        version: link:../../generated-routers/router006
+      '@org/router007':
         specifier: workspace:*
-        version: link:../../generated-routers/router0007
-      '@org/router0008':
+        version: link:../../generated-routers/router007
+      '@org/router008':
         specifier: workspace:*
-        version: link:../../generated-routers/router0008
-      '@org/router0009':
+        version: link:../../generated-routers/router008
+      '@org/router009':
         specifier: workspace:*
-        version: link:../../generated-routers/router0009
-      '@org/router0010':
+        version: link:../../generated-routers/router009
+      '@org/router010':
         specifier: workspace:*
-        version: link:../../generated-routers/router0010
-      '@org/router0011':
+        version: link:../../generated-routers/router010
+      '@org/router011':
         specifier: workspace:*
-        version: link:../../generated-routers/router0011
-      '@org/router0012':
+        version: link:../../generated-routers/router011
+      '@org/router012':
         specifier: workspace:*
-        version: link:../../generated-routers/router0012
-      '@org/router0013':
+        version: link:../../generated-routers/router012
+      '@org/router013':
         specifier: workspace:*
-        version: link:../../generated-routers/router0013
-      '@org/router0014':
+        version: link:../../generated-routers/router013
+      '@org/router014':
         specifier: workspace:*
-        version: link:../../generated-routers/router0014
-      '@org/router0015':
+        version: link:../../generated-routers/router014
+      '@org/router015':
         specifier: workspace:*
-        version: link:../../generated-routers/router0015
-      '@org/router0016':
+        version: link:../../generated-routers/router015
+      '@org/router016':
         specifier: workspace:*
-        version: link:../../generated-routers/router0016
-      '@org/router0017':
+        version: link:../../generated-routers/router016
+      '@org/router017':
         specifier: workspace:*
-        version: link:../../generated-routers/router0017
-      '@org/router0018':
+        version: link:../../generated-routers/router017
+      '@org/router018':
         specifier: workspace:*
-        version: link:../../generated-routers/router0018
-      '@org/router0019':
+        version: link:../../generated-routers/router018
+      '@org/router019':
         specifier: workspace:*
-        version: link:../../generated-routers/router0019
-      '@org/router0020':
+        version: link:../../generated-routers/router019
+      '@org/router020':
         specifier: workspace:*
-        version: link:../../generated-routers/router0020
-      '@org/router0021':
+        version: link:../../generated-routers/router020
+      '@org/router021':
         specifier: workspace:*
-        version: link:../../generated-routers/router0021
-      '@org/router0022':
+        version: link:../../generated-routers/router021
+      '@org/router022':
         specifier: workspace:*
-        version: link:../../generated-routers/router0022
-      '@org/router0023':
+        version: link:../../generated-routers/router022
+      '@org/router023':
         specifier: workspace:*
-        version: link:../../generated-routers/router0023
-      '@org/router0024':
+        version: link:../../generated-routers/router023
+      '@org/router024':
         specifier: workspace:*
-        version: link:../../generated-routers/router0024
-      '@org/router0025':
+        version: link:../../generated-routers/router024
+      '@org/router025':
         specifier: workspace:*
-        version: link:../../generated-routers/router0025
-      '@org/router0026':
+        version: link:../../generated-routers/router025
+      '@org/router026':
         specifier: workspace:*
-        version: link:../../generated-routers/router0026
-      '@org/router0027':
+        version: link:../../generated-routers/router026
+      '@org/router027':
         specifier: workspace:*
-        version: link:../../generated-routers/router0027
-      '@org/router0028':
+        version: link:../../generated-routers/router027
+      '@org/router028':
         specifier: workspace:*
-        version: link:../../generated-routers/router0028
-      '@org/router0029':
+        version: link:../../generated-routers/router028
+      '@org/router029':
         specifier: workspace:*
-        version: link:../../generated-routers/router0029
-      '@org/router0030':
+        version: link:../../generated-routers/router029
+      '@org/router030':
         specifier: workspace:*
-        version: link:../../generated-routers/router0030
-      '@org/router0031':
+        version: link:../../generated-routers/router030
+      '@org/router031':
         specifier: workspace:*
-        version: link:../../generated-routers/router0031
-      '@org/router0032':
+        version: link:../../generated-routers/router031
+      '@org/router032':
         specifier: workspace:*
-        version: link:../../generated-routers/router0032
-      '@org/router0033':
+        version: link:../../generated-routers/router032
+      '@org/router033':
         specifier: workspace:*
-        version: link:../../generated-routers/router0033
-      '@org/router0034':
+        version: link:../../generated-routers/router033
+      '@org/router034':
         specifier: workspace:*
-        version: link:../../generated-routers/router0034
-      '@org/router0035':
+        version: link:../../generated-routers/router034
+      '@org/router035':
         specifier: workspace:*
-        version: link:../../generated-routers/router0035
-      '@org/router0036':
+        version: link:../../generated-routers/router035
+      '@org/router036':
         specifier: workspace:*
-        version: link:../../generated-routers/router0036
-      '@org/router0037':
+        version: link:../../generated-routers/router036
+      '@org/router037':
         specifier: workspace:*
-        version: link:../../generated-routers/router0037
-      '@org/router0038':
+        version: link:../../generated-routers/router037
+      '@org/router038':
         specifier: workspace:*
-        version: link:../../generated-routers/router0038
-      '@org/router0039':
+        version: link:../../generated-routers/router038
+      '@org/router039':
         specifier: workspace:*
-        version: link:../../generated-routers/router0039
-      '@org/router0040':
+        version: link:../../generated-routers/router039
+      '@org/router040':
         specifier: workspace:*
-        version: link:../../generated-routers/router0040
-      '@org/router0041':
+        version: link:../../generated-routers/router040
+      '@org/router041':
         specifier: workspace:*
-        version: link:../../generated-routers/router0041
-      '@org/router0042':
+        version: link:../../generated-routers/router041
+      '@org/router042':
         specifier: workspace:*
-        version: link:../../generated-routers/router0042
-      '@org/router0043':
+        version: link:../../generated-routers/router042
+      '@org/router043':
         specifier: workspace:*
-        version: link:../../generated-routers/router0043
-      '@org/router0044':
+        version: link:../../generated-routers/router043
+      '@org/router044':
         specifier: workspace:*
-        version: link:../../generated-routers/router0044
-      '@org/router0045':
+        version: link:../../generated-routers/router044
+      '@org/router045':
         specifier: workspace:*
-        version: link:../../generated-routers/router0045
-      '@org/router0046':
+        version: link:../../generated-routers/router045
+      '@org/router046':
         specifier: workspace:*
-        version: link:../../generated-routers/router0046
-      '@org/router0047':
+        version: link:../../generated-routers/router046
+      '@org/router047':
         specifier: workspace:*
-        version: link:../../generated-routers/router0047
-      '@org/router0048':
+        version: link:../../generated-routers/router047
+      '@org/router048':
         specifier: workspace:*
-        version: link:../../generated-routers/router0048
-      '@org/router0049':
+        version: link:../../generated-routers/router048
+      '@org/router049':
         specifier: workspace:*
-        version: link:../../generated-routers/router0049
-      '@org/router0050':
+        version: link:../../generated-routers/router049
+      '@org/router050':
         specifier: workspace:*
-        version: link:../../generated-routers/router0050
-      '@org/router0051':
+        version: link:../../generated-routers/router050
+      '@org/router051':
         specifier: workspace:*
-        version: link:../../generated-routers/router0051
-      '@org/router0052':
+        version: link:../../generated-routers/router051
+      '@org/router052':
         specifier: workspace:*
-        version: link:../../generated-routers/router0052
-      '@org/router0053':
+        version: link:../../generated-routers/router052
+      '@org/router053':
         specifier: workspace:*
-        version: link:../../generated-routers/router0053
-      '@org/router0054':
+        version: link:../../generated-routers/router053
+      '@org/router054':
         specifier: workspace:*
-        version: link:../../generated-routers/router0054
-      '@org/router0055':
+        version: link:../../generated-routers/router054
+      '@org/router055':
         specifier: workspace:*
-        version: link:../../generated-routers/router0055
-      '@org/router0056':
+        version: link:../../generated-routers/router055
+      '@org/router056':
         specifier: workspace:*
-        version: link:../../generated-routers/router0056
-      '@org/router0057':
+        version: link:../../generated-routers/router056
+      '@org/router057':
         specifier: workspace:*
-        version: link:../../generated-routers/router0057
-      '@org/router0058':
+        version: link:../../generated-routers/router057
+      '@org/router058':
         specifier: workspace:*
-        version: link:../../generated-routers/router0058
-      '@org/router0059':
+        version: link:../../generated-routers/router058
+      '@org/router059':
         specifier: workspace:*
-        version: link:../../generated-routers/router0059
-      '@org/router0060':
+        version: link:../../generated-routers/router059
+      '@org/router060':
         specifier: workspace:*
-        version: link:../../generated-routers/router0060
-      '@org/router0061':
+        version: link:../../generated-routers/router060
+      '@org/router061':
         specifier: workspace:*
-        version: link:../../generated-routers/router0061
-      '@org/router0062':
+        version: link:../../generated-routers/router061
+      '@org/router062':
         specifier: workspace:*
-        version: link:../../generated-routers/router0062
-      '@org/router0063':
+        version: link:../../generated-routers/router062
+      '@org/router063':
         specifier: workspace:*
-        version: link:../../generated-routers/router0063
-      '@org/router0064':
+        version: link:../../generated-routers/router063
+      '@org/router064':
         specifier: workspace:*
-        version: link:../../generated-routers/router0064
-      '@org/router0065':
+        version: link:../../generated-routers/router064
+      '@org/router065':
         specifier: workspace:*
-        version: link:../../generated-routers/router0065
-      '@org/router0066':
+        version: link:../../generated-routers/router065
+      '@org/router066':
         specifier: workspace:*
-        version: link:../../generated-routers/router0066
-      '@org/router0067':
+        version: link:../../generated-routers/router066
+      '@org/router067':
         specifier: workspace:*
-        version: link:../../generated-routers/router0067
-      '@org/router0068':
+        version: link:../../generated-routers/router067
+      '@org/router068':
         specifier: workspace:*
-        version: link:../../generated-routers/router0068
-      '@org/router0069':
+        version: link:../../generated-routers/router068
+      '@org/router069':
         specifier: workspace:*
-        version: link:../../generated-routers/router0069
-      '@org/router0070':
+        version: link:../../generated-routers/router069
+      '@org/router070':
         specifier: workspace:*
-        version: link:../../generated-routers/router0070
-      '@org/router0071':
+        version: link:../../generated-routers/router070
+      '@org/router071':
         specifier: workspace:*
-        version: link:../../generated-routers/router0071
-      '@org/router0072':
+        version: link:../../generated-routers/router071
+      '@org/router072':
         specifier: workspace:*
-        version: link:../../generated-routers/router0072
-      '@org/router0073':
+        version: link:../../generated-routers/router072
+      '@org/router073':
         specifier: workspace:*
-        version: link:../../generated-routers/router0073
-      '@org/router0074':
+        version: link:../../generated-routers/router073
+      '@org/router074':
         specifier: workspace:*
-        version: link:../../generated-routers/router0074
-      '@org/router0075':
+        version: link:../../generated-routers/router074
+      '@org/router075':
         specifier: workspace:*
-        version: link:../../generated-routers/router0075
-      '@org/router0076':
+        version: link:../../generated-routers/router075
+      '@org/router076':
         specifier: workspace:*
-        version: link:../../generated-routers/router0076
-      '@org/router0077':
+        version: link:../../generated-routers/router076
+      '@org/router077':
         specifier: workspace:*
-        version: link:../../generated-routers/router0077
-      '@org/router0078':
+        version: link:../../generated-routers/router077
+      '@org/router078':
         specifier: workspace:*
-        version: link:../../generated-routers/router0078
-      '@org/router0079':
+        version: link:../../generated-routers/router078
+      '@org/router079':
         specifier: workspace:*
-        version: link:../../generated-routers/router0079
-      '@org/router0080':
+        version: link:../../generated-routers/router079
+      '@org/router080':
         specifier: workspace:*
-        version: link:../../generated-routers/router0080
-      '@org/router0081':
+        version: link:../../generated-routers/router080
+      '@org/router081':
         specifier: workspace:*
-        version: link:../../generated-routers/router0081
-      '@org/router0082':
+        version: link:../../generated-routers/router081
+      '@org/router082':
         specifier: workspace:*
-        version: link:../../generated-routers/router0082
-      '@org/router0083':
+        version: link:../../generated-routers/router082
+      '@org/router083':
         specifier: workspace:*
-        version: link:../../generated-routers/router0083
-      '@org/router0084':
+        version: link:../../generated-routers/router083
+      '@org/router084':
         specifier: workspace:*
-        version: link:../../generated-routers/router0084
-      '@org/router0085':
+        version: link:../../generated-routers/router084
+      '@org/router085':
         specifier: workspace:*
-        version: link:../../generated-routers/router0085
-      '@org/router0086':
+        version: link:../../generated-routers/router085
+      '@org/router086':
         specifier: workspace:*
-        version: link:../../generated-routers/router0086
-      '@org/router0087':
+        version: link:../../generated-routers/router086
+      '@org/router087':
         specifier: workspace:*
-        version: link:../../generated-routers/router0087
-      '@org/router0088':
+        version: link:../../generated-routers/router087
+      '@org/router088':
         specifier: workspace:*
-        version: link:../../generated-routers/router0088
-      '@org/router0089':
+        version: link:../../generated-routers/router088
+      '@org/router089':
         specifier: workspace:*
-        version: link:../../generated-routers/router0089
-      '@org/router0090':
+        version: link:../../generated-routers/router089
+      '@org/router090':
         specifier: workspace:*
-        version: link:../../generated-routers/router0090
-      '@org/router0091':
+        version: link:../../generated-routers/router090
+      '@org/router091':
         specifier: workspace:*
-        version: link:../../generated-routers/router0091
-      '@org/router0092':
+        version: link:../../generated-routers/router091
+      '@org/router092':
         specifier: workspace:*
-        version: link:../../generated-routers/router0092
-      '@org/router0093':
+        version: link:../../generated-routers/router092
+      '@org/router093':
         specifier: workspace:*
-        version: link:../../generated-routers/router0093
-      '@org/router0094':
+        version: link:../../generated-routers/router093
+      '@org/router094':
         specifier: workspace:*
-        version: link:../../generated-routers/router0094
-      '@org/router0095':
+        version: link:../../generated-routers/router094
+      '@org/router095':
         specifier: workspace:*
-        version: link:../../generated-routers/router0095
-      '@org/router0096':
+        version: link:../../generated-routers/router095
+      '@org/router096':
         specifier: workspace:*
-        version: link:../../generated-routers/router0096
-      '@org/router0097':
+        version: link:../../generated-routers/router096
+      '@org/router097':
         specifier: workspace:*
-        version: link:../../generated-routers/router0097
-      '@org/router0098':
+        version: link:../../generated-routers/router097
+      '@org/router098':
         specifier: workspace:*
-        version: link:../../generated-routers/router0098
-      '@org/router0099':
+        version: link:../../generated-routers/router098
+      '@org/router099':
         specifier: workspace:*
-        version: link:../../generated-routers/router0099
-      '@org/router0100':
+        version: link:../../generated-routers/router099
+      '@org/router100':
         specifier: workspace:*
-        version: link:../../generated-routers/router0100
+        version: link:../../generated-routers/router100
       '@org/trpc':
         specifier: workspace:*
         version: link:../trpc

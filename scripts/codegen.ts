@@ -48,7 +48,7 @@ function createRouterPackage(routerName: string) {
 
 const routerPackages: string[] = []
 for (let i = 1; i <= NUM_ROUTERS; i++) {
-  const routerName = `router${String(i).padStart(4, '0')}`
+  const routerName = `router${String(i).padStart(3, '0')}`
   routerPackages.push(routerName)
   createRouterPackage(routerName)
 }

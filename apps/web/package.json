@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@org/api": "workspace:*",
-    "@org/router0001": "workspace:*",
+    "@org/router001": "workspace:*",
     "@tanstack/react-query": "latest",
     "@trpc/client": "tmp",
     "@trpc/react-query": "tmp",

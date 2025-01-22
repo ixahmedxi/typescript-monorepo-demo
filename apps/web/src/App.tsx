@@ -1,9 +1,9 @@
-import { router0001Api } from './lib/router0001'
+import { router001Api } from './lib/router001'
 import { trpcReact } from './lib/trpc'
 
 export function App() {
-  const q1 = trpcReact.router0001.foo.useQuery() // <-- bug in trpc?
-  const q2 = router0001Api.foo.useQuery() // <-- speedy and works with go to definition
+  const q1 = trpcReact.router001.foo.useQuery() // <-- bug in trpc?
+  const q2 = router001Api.foo.useQuery() // <-- speedy and works with go to definition
 
   if (q2.data === 'bar') {
   }
