@@ -4,7 +4,7 @@
     "//#root:codegen": {
       "cache": true,
       "persistent": false,
-      "inputs": ["$TURBO_DEFAULT$", "./scripts/**/*"],
+      "inputs": ["./scripts/**/*"],
       "outputs": ["generated-routers/**"]
     },
     "build": {
