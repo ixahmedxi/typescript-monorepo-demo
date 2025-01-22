@@ -6,11 +6,12 @@
   "scripts": {
     "build": "turbo build",
     "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist **/node_module generated-routers",
-    "codegen": "tsx scripts/codegen.ts",
+    "codegen": "turbo run root:codegen",
     "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",
+    "root:codegen": "tsx scripts/codegen.ts",
     "spellcheck": "cspell \"**\" --gitignore --dot --no-progress --cache --unique"
   },
   "dependencies": {

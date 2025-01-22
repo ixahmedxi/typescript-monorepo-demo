@@ -1,14 +1,14 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "tasks": {
-    "//#codegen": {
+    "//#root:codegen": {
       "cache": true,
       "persistent": false,
       "inputs": ["$TURBO_DEFAULT$", "./scripts/**/*"],
       "outputs": ["generated-routers/**"]
     },
     "build": {
-      "dependsOn": ["^build", "//#codegen"],
+      "dependsOn": ["^build", "//#root:codegen"],
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [
         ".next/**",
