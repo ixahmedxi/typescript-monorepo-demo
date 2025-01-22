@@ -98,7 +98,13 @@ function updateApiPackageJsonDependencies(pkgDir: string) {
   // Write updated package.json
   fs.writeFileSync(
     apiPackageJsonPath,
-    JSON.stringify(apiPackageJson, null, 2) + '\n',
+    JSON.stringify(
+      {
+        extends: ['@org/tsconfig/base.json'],
+      },
+      null,
+      2,
+    ) + '\n',
   )
 }
 
