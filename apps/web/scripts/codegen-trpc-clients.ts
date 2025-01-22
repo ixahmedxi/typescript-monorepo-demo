@@ -1,7 +1,5 @@
 /**
- * This script generates the `src/generated/trpc`-files which have faster autocompletion to type than the `src/utils/trpc.ts` file.
- *
- * When adding/removing a new router, you need to run `npm i` or `npm run postinstall` to generate the new files.
+ * This script generates the tRPC clients which work with jump to definition
  */
 
 import fs from 'fs'
