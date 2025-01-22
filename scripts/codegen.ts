@@ -80,26 +80,33 @@ export type AppRouter = typeof appRouter;
 fs.writeFileSync(path.join(apiPkgDir, 'src/index.ts'), rootIndexFile)
 
 // Add generated router packages as dependencies to api package.json
-const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
-const apiPackageJson = JSON.parse(fs.readFileSync(apiPackageJsonPath, 'utf-8'))
+function updateApiPackageJsonDependencies(dir: string) {
+  const apiPackageJsonPath = path.join(dir, 'package.json')
+  const apiPackageJson = JSON.parse(
+    fs.readFileSync(apiPackageJsonPath, 'utf-8'),
+  )
 
-// Remove any existing @org/router dependencies
-for (const dep in apiPackageJson.dependencies) {
-  if (dep.startsWith('@org/router')) {
-    delete apiPackageJson.dependencies[dep]
+  // Remove any existing @org/router dependencies
+  for (const dep in apiPackageJson.dependencies) {
+    if (dep.startsWith('@org/router')) {
+      delete apiPackageJson.dependencies[dep]
+    }
   }
+
+  // Add each router package as a dependency
+  for (const routerName of routerPackages) {
+    apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
+  }
+
+  // Write updated package.json
+  fs.writeFileSync(
+    apiPackageJsonPath,
+    JSON.stringify(apiPackageJson, null, 2) + '\n',
+  )
 }
 
-// Add each router package as a dependency
-for (const routerName of routerPackages) {
-  apiPackageJson.dependencies[`@org/${routerName}`] = 'workspace:*'
-}
-
-// Write updated package.json
-fs.writeFileSync(
-  apiPackageJsonPath,
-  JSON.stringify(apiPackageJson, null, 2) + '\n',
-)
+updateApiPackageJsonDependencies(apiPkgDir)
+updateApiPackageJsonDependencies(path.join(rootDir, 'apps/web'))
 
 // Stalls the process smh
 // try {
