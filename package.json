@@ -7,7 +7,7 @@
     "build": "turbo build",
     "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist generated-routers && pnpm codegen && pnpm i",
     "codegen": "turbo run root:codegen",
-    "dev": "turbo watch build --filter=@org/*",
+    "dev": "turbo watch build",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
     "lint:md": "markdownlint \"**/*.md\" --dot --ignore node_modules --ignore .changeset",

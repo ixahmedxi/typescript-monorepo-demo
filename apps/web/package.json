@@ -7,7 +7,7 @@
   "author": "org <contact@org.run>",
   "type": "module",
   "scripts": {
-    "build": "tsc -b && vite build",
+    "build": "tsc",
     "codegen-clients": "tsx scripts/codegen-trpc-clients.ts",
     "dev": "vite --port 3000",
     "lint": "eslint .",
