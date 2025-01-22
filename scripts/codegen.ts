@@ -9,7 +9,7 @@ const apiPkgDir = path.join(__dirname, '../packages/api')
 
 // Modify this is if you want to try bigger routers
 // Each router will have 5 procedures + a small sub-router with 2 procedures
-const NUM_ROUTERS = 3
+const NUM_ROUTERS = 100
 
 const PACKAGES_DIR = path.join(__dirname, '../generated-routers')
 if (!fs.existsSync(PACKAGES_DIR)) {
@@ -48,7 +48,7 @@ function createRouterPackage(routerName: string) {
 
 const routerPackages: string[] = []
 for (let i = 1; i <= NUM_ROUTERS; i++) {
-  const routerName = `router${String(i).padStart(2, '0')}`
+  const routerName = `router${String(i).padStart(4, '0')}`
   routerPackages.push(routerName)
   createRouterPackage(routerName)
 }
@@ -74,7 +74,7 @@ export const appRouter = router({
 export type AppRouter = typeof appRouter;
 `.trim()
 
-fs.writeFileSync(path.join(apiPkgDir, 'src/server.ts'), rootIndexFile)
+fs.writeFileSync(path.join(apiPkgDir, 'src/index.ts'), rootIndexFile)
 
 // Add generated router packages as dependencies to api package.json
 const apiPackageJsonPath = path.join(apiPkgDir, 'package.json')
