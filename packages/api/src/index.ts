@@ -50,56 +50,6 @@ import { router047 } from '@org/router047';
 import { router048 } from '@org/router048';
 import { router049 } from '@org/router049';
 import { router050 } from '@org/router050';
-import { router051 } from '@org/router051';
-import { router052 } from '@org/router052';
-import { router053 } from '@org/router053';
-import { router054 } from '@org/router054';
-import { router055 } from '@org/router055';
-import { router056 } from '@org/router056';
-import { router057 } from '@org/router057';
-import { router058 } from '@org/router058';
-import { router059 } from '@org/router059';
-import { router060 } from '@org/router060';
-import { router061 } from '@org/router061';
-import { router062 } from '@org/router062';
-import { router063 } from '@org/router063';
-import { router064 } from '@org/router064';
-import { router065 } from '@org/router065';
-import { router066 } from '@org/router066';
-import { router067 } from '@org/router067';
-import { router068 } from '@org/router068';
-import { router069 } from '@org/router069';
-import { router070 } from '@org/router070';
-import { router071 } from '@org/router071';
-import { router072 } from '@org/router072';
-import { router073 } from '@org/router073';
-import { router074 } from '@org/router074';
-import { router075 } from '@org/router075';
-import { router076 } from '@org/router076';
-import { router077 } from '@org/router077';
-import { router078 } from '@org/router078';
-import { router079 } from '@org/router079';
-import { router080 } from '@org/router080';
-import { router081 } from '@org/router081';
-import { router082 } from '@org/router082';
-import { router083 } from '@org/router083';
-import { router084 } from '@org/router084';
-import { router085 } from '@org/router085';
-import { router086 } from '@org/router086';
-import { router087 } from '@org/router087';
-import { router088 } from '@org/router088';
-import { router089 } from '@org/router089';
-import { router090 } from '@org/router090';
-import { router091 } from '@org/router091';
-import { router092 } from '@org/router092';
-import { router093 } from '@org/router093';
-import { router094 } from '@org/router094';
-import { router095 } from '@org/router095';
-import { router096 } from '@org/router096';
-import { router097 } from '@org/router097';
-import { router098 } from '@org/router098';
-import { router099 } from '@org/router099';
-import { router100 } from '@org/router100';
 
 export const appRouter = router({
   router001,
@@ -151,57 +101,7 @@ export const appRouter = router({
   router047,
   router048,
   router049,
-  router050,
-  router051,
-  router052,
-  router053,
-  router054,
-  router055,
-  router056,
-  router057,
-  router058,
-  router059,
-  router060,
-  router061,
-  router062,
-  router063,
-  router064,
-  router065,
-  router066,
-  router067,
-  router068,
-  router069,
-  router070,
-  router071,
-  router072,
-  router073,
-  router074,
-  router075,
-  router076,
-  router077,
-  router078,
-  router079,
-  router080,
-  router081,
-  router082,
-  router083,
-  router084,
-  router085,
-  router086,
-  router087,
-  router088,
-  router089,
-  router090,
-  router091,
-  router092,
-  router093,
-  router094,
-  router095,
-  router096,
-  router097,
-  router098,
-  router099,
-  router100
+  router050
 });
 
 export type AppRouter = typeof appRouter;
