@@ -6,7 +6,7 @@
   "scripts": {
     "build": "turbo build",
     "clean": "rimraf -g **/*.tsbuildinfo **/.turbo **/dist **/node_module generated-routers",
-    "codegen": "tsx scripts/codegen.ts",
+    "codegen": "tsx scripts/codegen.ts && prettier --write generated-routers/**/*",
     "dev": "turbo watch build --filter=@org/*",
     "format": "prettier \"**/*\" --ignore-unknown --list-different",
     "format:fix": "prettier \"**/*\" --ignore-unknown --list-different --write",
