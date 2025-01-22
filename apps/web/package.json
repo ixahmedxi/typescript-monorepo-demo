@@ -14,14 +14,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@org/api": "workspace:*",
-    "@tanstack/react-query": "latest",
-    "@trpc/client": "next",
-    "@trpc/react-query": "next",
-    "@trpc/server": "next",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "superjson": "^2.2.1",
     "@org/router001": "workspace:*",
     "@org/router002": "workspace:*",
     "@org/router003": "workspace:*",
@@ -71,7 +63,14 @@
     "@org/router047": "workspace:*",
     "@org/router048": "workspace:*",
     "@org/router049": "workspace:*",
-    "@org/router050": "workspace:*"
+    "@org/router050": "workspace:*",
+    "@tanstack/react-query": "latest",
+    "@trpc/client": "next",
+    "@trpc/react-query": "next",
+    "@trpc/server": "next",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "superjson": "^2.2.1"
   },
   "devDependencies": {
     "@org/tsconfig": "workspace:*",

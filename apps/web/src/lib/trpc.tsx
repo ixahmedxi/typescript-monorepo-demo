@@ -7,9 +7,9 @@ import { httpBatchLink } from '@trpc/client'
 import { createTRPCReact } from '@trpc/react-query'
 import superjson from 'superjson'
 
-import { AppRouter } from '@org/api'
+import { type router001 } from '@org/router001'
 
-export const trpcReact = createTRPCReact<AppRouter>()
+export const trpcReact = createTRPCReact<typeof router001>()
 
 function getBaseUrl() {
   if (typeof window !== 'undefined') {
